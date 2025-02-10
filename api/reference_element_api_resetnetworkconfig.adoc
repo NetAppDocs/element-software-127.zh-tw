@@ -1,0 +1,52 @@
+---
+permalink: api/reference_element_api_resetnetworkconfig.html 
+sidebar: sidebar 
+keywords: network,config,configuration,reset,restetting,factory,default,resetnetworkconfig 
+summary: 您可以使用ResetNetwork Config方法來協助解決個別節點的網路組態問題。此方法會將個別節點的網路組態重設為原廠預設值。 
+---
+= 重新設定網路組態
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用此 `ResetNetworkConfig`方法來協助解決個別節點的網路組態問題。此方法會將個別節點的網路組態重設為原廠預設值。
+
+
+
+== 參數
+
+此方法沒有輸入參數。
+
+
+
+== 傳回值
+
+此方法沒有傳回值。
+
+
+
+== 申請範例
+
+此方法的要求類似於下列範例：
+
+[listing]
+----
+{
+   "method": "ResetNetworkConfig",
+   "params": {},
+   "id" : 1
+}
+----
+
+
+== 回應範例
+
+此方法不會傳回回應。
+
+
+
+== 新的自版本
+
+11.0

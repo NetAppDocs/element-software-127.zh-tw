@@ -1,0 +1,170 @@
+---
+sidebar: sidebar 
+permalink: upgrade/task_hcc_upgrade_management_node.html 
+summary: 在NetApp SolidFire 的不完整儲存系統升級過程中、您需要升級管理節點。 
+keywords: netapp, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7 
+---
+= 升級管理節點
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將管理節點從12.3.x版或更新版本升級至管理節點12.5或更新版本。
+
+不再需要升級管理節點作業系統、即可升級儲存叢集上的Element軟體。您只需將管理服務升級至最新版本、即可使用NetApp混合雲控制系統執行元件升級。如果您基於其他理由（例如安全性補救）而想要升級管理節點作業系統、請依照您案例的管理節點升級程序進行。
+
+
+NOTE: 如果您需要有關升級管理節點 12.2 或更早版本的資訊，請參閱 https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_management_node.html["Element 12.3.x管理節點升級文件"^]。
+
+.升級選項
+請選擇下列其中一個選項：
+
+* <<將管理節點從12.3.x版或更新版本升級至12.5版或更新版本>>
+* <<使用管理節點REST API重新設定驗證>>
++
+如果您已*連續*更新管理服務版本（1）、以及（2）您的元素儲存版本、而且您想*保留*現有的管理節點、請選擇此選項：
+
+
+
+
+NOTE: 如果您未依序更新管理服務、接著更新元素儲存設備、則無法使用此程序重新設定重新驗證。請改為執行適當的升級程序。
+
+
+
+== 將管理節點從12.3.x版或更新版本升級至12.5版或更新版本
+
+您可以在不需要佈建新管理節點虛擬機器的情況下、將管理節點從12.3.x或更新版本就地升級至12.5或更新版本。
+
+
+NOTE: Element 12.5或更新版本的管理節點為選用升級。現有部署不需要此功能。
+
+.您需要的產品
+* 管理節點VM的RAM為24GB。
+* 您要升級的管理節點為12版、使用的是IPv6網路。管理節點版本12.5或更新版本不支援IPv6。
++
+
+TIP: 若要檢查管理節點的版本、請登入管理節點、然後在登入橫幅中檢視元素版本編號。
+
+* 您已使用NetApp混合雲控制將管理服務套裝組合更新為最新版本。您可以從下列 IP 存取 NetApp 混合雲控制： `\https://<ManagementNodeIP>`
+* 如果您要將管理節點更新至版本12．5或更新版本、則需要使用管理服務2．21．61或更新版本才能繼續。
+* 您已依照的指示設定額外的網路介面卡（如有需要）link:../mnode/task_mnode_install_add_storage_NIC.html["設定額外的儲存NIC"]。
++
+
+NOTE: 如果eth0無法路由至SVIP、則持續磁碟區可能需要額外的網路介面卡。在iSCSI儲存網路上設定新的網路介面卡、以允許設定持續磁碟區。
+
+* 儲存節點執行元件12.3.x或更新版本。
+
+
+.步驟
+. 使用SSH或主控台存取權登入管理節點虛擬機器。
+. 從 NetApp 支援網站下載 https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["管理節點ISO"^] for Element 軟體至管理節點虛擬機器。
++
+
+NOTE: ISO 的名稱類似於 `solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
+
+. 請對下載的檔案執行 md5sum，確認下載內容的完整性，然後輸出並與 NetApp 支援網站上提供的 Element 軟體內容進行比較，如下列範例所示：
++
+`sudo md5sum -b <path to iso>/solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso`
+
+. 掛載管理節點ISO映像、並使用下列命令將內容複製到檔案系統：
++
+[listing]
+----
+sudo mkdir -p /upgrade
+----
++
+[listing]
+----
+sudo mount <solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso> /mnt
+----
++
+[listing]
+----
+sudo cp -r /mnt/* /upgrade
+----
+. 變更至主目錄、然後從卸載 ISO 檔案 `/mnt`：
++
+[listing]
+----
+sudo umount /mnt
+----
+. 刪除ISO以節省管理節點上的空間：
++
+[listing]
+----
+sudo rm <path to iso>/solidfire-fdva-<Element release>-patchX-XX.X.X.XXXX.iso
+----
+. 在您要升級的管理節點上、執行下列命令來升級管理節點OS版本。指令碼會在升級後保留所有必要的組態檔、例如Active IQ 收集器和Proxy設定。
++
+[listing]
+----
+sudo /sf/rtfi/bin/sfrtfi_inplace file:///upgrade/casper/filesystem.squashfs sf_upgrade=1
+----
++
+升級程序完成後、管理節點會以新的作業系統重新開機。
+
++
+
+NOTE: 執行本步驟所述的Sudo命令後、SSH工作階段便會終止。需要主控台存取才能繼續監控。如果您在執行升級時無法存取主控台、請重試SSH登入、並在15至30分鐘後驗證連線能力。登入之後、您可以在SSH橫幅中確認新的作業系統版本、表示升級成功。
+
+. 在管理節點上、執行 `redeploy-mnode`指令碼以保留先前的管理服務組態設定：
++
+
+NOTE: 指令碼會保留先前的管理服務組態、包括Active IQ 來自於資料收集器服務、控制器（vCenters）或Proxy的組態、視您的設定而定。
+
++
+[listing]
+----
+sudo /sf/packages/mnode/redeploy-mnode -mu <mnode user>
+----
+
+
+
+IMPORTANT: 如果您先前已停用管理節點上的 SSH 功能、則需要link:../mnode/task_mnode_ssh_management.html["再次停用SSH"]在復原的管理節點上執行。預設會在管理節點上啟用提供的 SSH 功能link:../mnode/task_mnode_enable_remote_support_connections.html["NetApp支援遠端支援通道（RST）工作階段存取"]。
+
+
+
+== 使用管理節點REST API重新設定驗證
+
+如果您已依序升級（1）管理服務和（2）元素儲存設備、則可以保留現有的管理節點。如果您已依照不同的升級順序執行、請參閱就地管理節點升級程序。
+
+.開始之前
+* 您已將管理服務更新為2.20.69版或更新版本。
+* 您的儲存叢集正在執行Element 123或更新版本。
+* 您已依序更新管理服務、然後升級您的Element儲存設備。除非您依照所述順序完成升級、否則無法使用此程序重新設定驗證。
+
+
+.步驟
+. 在管理節點上開啟管理節點REST API UI：
++
+[listing]
+----
+https://<ManagementNodeIP>/mnode
+----
+. 選擇*授權*並完成下列項目：
++
+.. 輸入叢集使用者名稱和密碼。
+.. 輸入用戶端 ID 、就像尚未填入值一樣 `mnode-client`。
+.. 選取*授權*以開始工作階段。
+
+
+. 從REST API UI中、選取* POST /services / reconfigure驗證*。
+. 選擇*試用*。
+. 對於 *load_images_* 參數，請選擇 `true`。
+. 選擇*執行*。
++
+回應本文表示重新設定成功。
+
+
+
+[discrete]
+== 如需詳細資訊、請參閱
+
+* https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
+

@@ -1,0 +1,87 @@
+---
+permalink: api/reference_element_api_certificatedetails.html 
+sidebar: sidebar 
+keywords: security,certificate,SSL,get,getting,certificateDetails,object,objects 
+summary: 「憑證詳細資料」物件包含安全性憑證的解碼資訊。 
+---
+= 認證詳細資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ `certificateDetails`物件包含安全性憑證的解碼資訊。
+
+
+
+== 物件成員
+
+此物件包含下列成員：
+
+|===
+| 名稱 | 說明 | 類型 
+
+
+ a| 
+`issuer`
+ a| 
+發卡行名稱。
+ a| 
+字串
+
+
+
+ a| 
+`modulus`
+ a| 
+公開金鑰的模量。
+ a| 
+字串
+
+
+
+ a| 
+`notAfter`
+ a| 
+憑證的到期日。
+ a| 
+ISO 8601字串
+
+
+
+ a| 
+`notBefore`
+ a| 
+憑證的開始日期。
+ a| 
+ISO 8601字串
+
+
+
+ a| 
+`serial`
+ a| 
+憑證序號。
+ a| 
+字串
+
+
+
+ a| 
+`sha1Fingerprint`
+ a| 
+憑證的NER編碼版本摘要。
+ a| 
+字串
+
+
+
+ a| 
+`subject`
+ a| 
+主旨名稱。
+ a| 
+字串
+
+|===

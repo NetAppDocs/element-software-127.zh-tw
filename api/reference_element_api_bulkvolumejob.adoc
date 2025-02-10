@@ -1,0 +1,155 @@
+---
+permalink: api/reference_element_api_bulkvolumejob.html 
+sidebar: sidebar 
+keywords: bulkVolumeJob,object,objects,read,write,clones,snapshots,clone,snapshot 
+summary: BulkVolume工作物件包含大量磁碟區讀取或寫入作業的相關資訊、例如複製或建立快照。 
+---
+= 艙壁Volume工作
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ `bulkVolumeJob`物件包含大量磁碟區讀取或寫入作業的相關資訊、例如複製或建立快照。
+
+
+
+== 物件成員
+
+此物件包含下列成員：
+
+|===
+| 名稱 | 說明 | 類型 
+
+
+ a| 
+`attributes`
+ a| 
+大量Volume工作的Json屬性。
+ a| 
+Json物件
+
+
+
+ a| 
+`bulkVolumeID`
+ a| 
+內部大量Volume工作ID。
+ a| 
+整數
+
+
+
+ a| 
+`createTime`
+ a| 
+為大量Volume工作建立的時間戳記、格式為UTC+0。
+ a| 
+ISO 8601日期字串
+
+
+
+ a| 
+`elapsedTime`
+ a| 
+自工作開始以來的秒數。
+ a| 
+字串
+
+
+
+ a| 
+`format`
+ a| 
+大量Volume作業的格式。可能值：
+
+* 原生
+* 未壓縮
+
+ a| 
+字串
+
+
+
+ a| 
+`key`
+ a| 
+大量Volume工作階段所建立的唯一金鑰。
+ a| 
+字串
+
+
+
+ a| 
+`percentComplete`
+ a| 
+營運報告的已完成百分比。
+ a| 
+整數
+
+
+
+ a| 
+`remainingTime`
+ a| 
+預估剩餘時間（以秒為單位）。
+ a| 
+整數
+
+
+
+ a| 
+`srcVolumeID`
+ a| 
+來源Volume ID。
+ a| 
+整數
+
+
+
+ a| 
+`status`
+ a| 
+作業的狀態。可能值：
+
+* 準備
+* 使用中
+* 完成
+* 失敗
+
+ a| 
+字串
+
+
+
+ a| 
+`script`
+ a| 
+提供指令碼的名稱（如果有）。
+ a| 
+字串
+
+
+
+ a| 
+`snapshotID`
+ a| 
+如果快照位於大量Volume工作的來源中、則為快照的ID。
+ a| 
+整數
+
+
+
+ a| 
+`type`
+ a| 
+大量作業的類型。可能值：
+
+* 讀取
+* 寫入
+
+ a| 
+字串
+
+|===

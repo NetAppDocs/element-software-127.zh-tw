@@ -1,0 +1,78 @@
+---
+permalink: storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html 
+sidebar: sidebar 
+keywords: enable, disable, encryption at rest, cluster, sed, hardware-based, encryption settings, software-based 
+summary: 有了這個解決方法、您可以使用靜止的軟體或硬體加密、來加密儲存在叢集上的所有資料。SolidFire 
+---
+= 啟用及停用叢集的靜止加密
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+利用叢集、您可以加密儲存在叢集磁碟機上的所有閒置資料。SolidFire您可以使用任一選項link:../concepts/concept_solidfire_concepts_security.html["硬體或軟體式加密"]來啟用全叢集的自我加密磁碟機（ SED ）保護。
+
+您可以使用Element UI或API在靜止時啟用硬體加密。啟用閒置時的硬體加密功能不會影響叢集的效能或效率。您只能使用Element API在閒置時啟用軟體加密。
+
+在建立叢集期間、預設不會啟用閒置時的硬體加密、而且可以從元素UI啟用和停用。
+
+
+WARNING: 對於支援所有Flash的儲存叢集、在建立叢集期間必須啟用閒置軟體加密功能、而且在建立叢集後無法停用。SolidFire
+
+.您需要的產品
+* 您有叢集管理員權限可啟用或變更加密設定。
+* 對於閒置的硬體加密、您在變更加密設定之前、已確保叢集處於正常狀態。
+* 如果您停用加密、則必須有兩個節點參與叢集、才能存取金鑰來停用磁碟機上的加密。
+
+
+
+
+== 檢查加密的靜止狀態
+
+若要查看叢集上閒置時的加密狀態和 / 或軟體加密狀態、請使用此link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^]方法。您可以使用此link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAt恢復 資訊"^]方法取得叢集用來加密靜止資料的資訊。
+
+
+NOTE: 目前的 Element 軟體 UI 儀表板 `https://<MVIP>/`僅顯示硬體型加密的 REST 狀態加密。
+
+.選項
+* <<在靜止狀態下啟用硬體式加密>>
+* <<在靜止狀態下啟用軟體式加密>>
+* <<停用靜止時的硬體加密>>
+
+
+
+
+== 在靜止狀態下啟用硬體式加密
+
+
+NOTE: 若要使用外部金鑰管理組態來啟用閒置加密，您必須透過啟用閒置加密link:../api/reference_element_api_enableencryptionatrest.html["API"]。使用現有元素UI按鈕啟用時、會回復為使用內部產生的金鑰。
+
+. 在Element UI中、選取*叢集*>*設定*。
+. 選取*「Enable Encryption at REST *（在REST啟用加密*）」。
+
+
+
+
+== 在靜止狀態下啟用軟體式加密
+
+
+NOTE: 閒置的軟體加密無法在叢集上啟用之後停用。
+
+. 在叢集建立期間、執行的link:../api/reference_element_api_createcluster.html["建立叢集方法"] `enableSoftwareEncryptionAtRest`設定為 `true`。
+
+
+
+
+== 停用靜止時的硬體加密
+
+. 在Element UI中、選取*叢集*>*設定*。
+. 選擇*停用REST加密*。
+
+
+[discrete]
+== 如需詳細資訊、請參閱
+
+* https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html["先前版本的NetApp SolidFire 產品及元素產品文件"^]
+

@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: element-earlierversions.html 
+keywords: earlier versions, element versions 
+summary: 如果您未執行最新版本、則可取得先前版本的文件。 
+---
+= 早期版本的功能性的不一樣、可提供更多的功能SolidFire NetApp Element
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+先前版本的文件可在NetApp 支援網站 下列網頁取得：
+
+* https://docs.netapp.com/us-en/element-software-125/index.html["Element 12.5 文件"^]
+* https://docs.netapp.com/us-en/element-software-123/index.html["Element 12.3.x文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63945&language=en-US["Element 12.2.1文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63593&language=en-US["元素 12.2 文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63946&language=en-US["Element 12.0.1文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63368&language=en-US["Element 12.0 文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=64187&language=en-US["Element 11.8.2文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63944&language=en-US["Element 11.8.1文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63293&language=en-US["Element 11.8 文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63138&language=en-US["Element 11.7 文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63207&language=en-US["Element 11.5.1文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63058&language=en-US["Element 11.5 文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63027&language=en-US["Element 11.3P1文件"^]
+* https://mysupport.netapp.com/documentation/docweb/index.html?productID=63206&language=en-US["Element 11.3.2文件"^]
+* https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62654["Element 11.1文件與舊版"^]
+
+
+
+
+== 以取得更多資訊
+
+* https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
+

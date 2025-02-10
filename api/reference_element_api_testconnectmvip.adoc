@@ -1,0 +1,146 @@
+---
+permalink: api/reference_element_api_testconnectmvip.html 
+sidebar: sidebar 
+keywords: management,connection,test,testing,mvip,testconnectmvip 
+summary: 您可以使用TestConnectMvip方法來測試與儲存叢集的管理連線。測試會ping MVIP並執行簡單的API方法來驗證連線能力。 
+---
+= TestConnectMvip
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用此 `TestConnectMvip`方法來測試與儲存叢集的管理連線。測試會ping MVIP並執行簡單的API方法來驗證連線能力。
+
+
+
+== 參數
+
+此方法具有下列輸入參數：
+
+|===
+| 名稱 | 說明 | 類型 | 預設值 | 必要 
+
+
+| mvip | 您可以通過此值來測試不同MVIP的管理連線。測試與目標叢集的連線時、不需要使用此值。 | 字串 | 無 | 否 
+|===
+
+
+== 傳回值
+
+此方法具有下列傳回值：
+
+|===
+| 名稱 | 說明 | 類型 
+
+
+| 詳細資料  a| 
+測試作業（Json物件）的相關資訊：
+
+* `connected`：表示測試是否可以連線至 MVIP （布林值）
+* `mvip`： MVIP 測試依據（字串）
+* `pingBytes`：以 56 位元組和 1500 位元組（物件）進行 Ping 測試的詳細資料
++
+** `56`： 56 位元組 Ping 測試結果（ JSON 物件）：
++
+*** `individualResponseTimes`：每個頻道群節點（字串陣列）的回應時間清單
+*** `individualStatus`：每個頻道群節點的 Ping 狀態清單（布林陣列）
+*** `responseTime`：平均 ping 回應時間（字串）
+*** `successful`：表示 ping 測試是否成功（布爾值）
+
+
+** `1500`： 1500 字節 ping 測試結果（ JSON 對象）：
++
+*** `individualResponseTimes`：每個頻道群節點（字串陣列）的回應時間清單
+*** `individualStatus`：每個頻道群節點的 Ping 狀態清單（布林陣列）
+*** `responseTime`：平均 ping 回應時間（字串）
+*** `successful`： ping 測試是否成功（布爾值）
+
+
+** `duration`：執行測試所需的時間長度（字串）
+** `result`：整個測試結果（字串）
+
+
+
+| Json物件 
+|===
+
+
+== 申請範例
+
+此方法的要求類似於下列範例：
+
+[listing]
+----
+{
+   "method": "TestConnectMvip",
+   "params": {
+       "mvip" : "172.27.62.50"
+       },
+    "id":1
+}
+----
+
+
+== 回應範例
+
+此方法會傳回類似下列範例的回應：
+
+[listing]
+----
+{
+  "id": 1,
+  "result": {
+    "details": {
+      "connected": true,
+      "mvip": "172.27.62.50",
+      "pingBytes": {
+        "1500": {
+          "individualResponseTimes": [
+            "00:00:00.000250",
+            "00:00:00.000206",
+            "00:00:00.000200",
+            "00:00:00.000199",
+            "00:00:00.000199"
+         ],
+          "individualStatus": [
+             true,
+             true,
+             true,
+             true,
+             true
+         ],
+         "responseTime": "00:00:00.000211",
+         "successful": true
+       },
+       "56": {
+          "individualResponseTimes": [
+            "00:00:00.000217",
+            "00:00:00.000122",
+            "00:00:00.000117",
+            "00:00:00.000119",
+            "00:00:00.000121"
+         ],
+         "individualStatus": [
+            true,
+            true,
+            true,
+            true,
+            true
+         ],
+         "responseTime": "00:00:00.000139",
+         "successful": true
+        }
+      }
+    },
+    "duration": "00:00:00.271244",
+    "result": "Passed"
+  }
+}
+----
+
+
+== 新的自版本
+
+9.6

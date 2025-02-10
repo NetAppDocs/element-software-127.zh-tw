@@ -1,0 +1,98 @@
+---
+permalink: storage/task_system_manage_rekey_software_ear_master_key.html 
+sidebar: sidebar 
+keywords: element, rekey, encryption at rest, rekey master, replace key 
+summary: 您可以使用Element API重新輸入現有的金鑰。此程序會為您的外部金鑰管理伺服器建立新的替代主金鑰。 
+---
+= 在REST主要金鑰重新輸入軟體加密
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用Element API重新輸入現有的金鑰。此程序會為您的外部金鑰管理伺服器建立新的替代主金鑰。主金鑰一律由新的主金鑰取代、永遠不會複製或覆寫。
+
+您可能需要重新輸入以下程序的一部分：
+
+* 在從內部金鑰管理變更為外部金鑰管理的過程中、建立新的金鑰。
+* 建立新的金鑰、做為對安全性相關事件的回應或保護。
+
+
+
+NOTE: 此程序是非同步的、會在重新輸入作業完成之前傳回回應。您可以使用link:../api/reference_element_api_getasyncresult.html["Get非 同步結果"]方法輪詢系統、查看程序何時完成。
+
+.您需要的產品
+* 您已在不含磁碟區且沒有 I/O 的新叢集上、使用方法啟用靜態軟體加密link:../api/reference_element_api_createcluster.html["建立叢集"]請使用 link../API/reference_element_api_getsoftwareencryptionatrestinfo.html[`GetSoftwareEncryptionatRestInfo`] 確認狀態 `enabled`、然後再繼續。
+* 您的 SolidFire 叢集與外部金鑰伺服器（ EKS ）之間有link:../storage/task_system_manage_key_set_up_external_key_management.html["建立信任關係"]一段距離。執行link:../api/reference_element_api_testkeyserverkmip.html["TestKeyProviderKmip"]方法以驗證是否已建立與金鑰提供者的連線。
+
+
+.步驟
+. 執行link:../api/reference_element_api_listkeyserverskmip.html["listKeyProvidersKmip"]命令並複製金鑰提供者 ID (`keyProviderID`）。
+. 以 `keyManagementType`參數 AS `external` 和 `keyProviderID` ID 執行link:../api/reference_element_api_rekeysoftwareencryptionatrestmasterkey.html["RekeySoftwareEncryptionAt恢復 主金鑰"]、作為上一個步驟中金鑰提供者的 ID 編號：
++
+[listing]
+----
+{
+ "method": "rekeysoftwareencryptionatrestmasterkey",
+ "params": {
+   "keyManagementType": "external",
+   "keyProviderID": "<ID number>"
+ }
+}
+----
+. 從命令回應複製 `asyncHandle`值 `RekeySoftwareEncryptionAtRestMasterKey`。
+. 使用上一步的值執行link:../api/reference_element_api_getasyncresult.html["Get非 同步結果"]命令 `asyncHandle`、以確認組態變更。從命令回應中、您應該會看到舊版主金鑰組態已更新為新的金鑰資訊。複製新的金鑰提供者ID以供後續步驟使用。
++
+[listing]
+----
+{
+   "id": null,
+   "result": {
+     "createTime": "2021-01-01T22:29:18Z",
+     "lastUpdateTime": "2021-01-01T22:45:51Z",
+     "result": {
+       "keyToDecommission": {
+         "keyID": "<value>",
+         "keyManagementType": "internal"
+     },
+     "newKey": {
+       "keyID": "<value>",
+       "keyManagementType": "external",
+       "keyProviderID": <value>
+     },
+     "operation": "Rekeying Master Key. Master Key management being transferred from Internal Key Management to External Key Management with keyProviderID=<value>",
+     "state": "Ready"
+   },
+   "resultType": "RekeySoftwareEncryptionAtRestMasterKey",
+   "status": "complete"
+}
+----
+. 執行 `GetSoftwareEncryptionatRestInfo`命令以確認新的金鑰詳細資料（包括 `keyProviderID`）已更新。
++
+[listing]
+----
+{
+   "id": null,
+   "result": {
+     "masterKeyInfo": {
+       "keyCreatedTime": "2021-01-01T22:29:18Z",
+       "keyID": "<updated value>",
+       "keyManagementType": "external",
+       "keyProviderID": <value>
+     },
+     "rekeyMasterKeyAsyncResultID": <value>
+     "status": "enabled",
+     "version": 1
+   },
+}
+----
+
+
+[discrete]
+== 如需詳細資訊、請參閱
+
+* link:../api/concept_element_api_about_the_api.html["使用Element API管理儲存設備"]
+* https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]
+* https://docs.netapp.com/sfe-122/topic/com.netapp.ndc.sfe-vers/GUID-B1944B0E-B335-4E0B-B9F1-E960BF32AE56.html["先前版本的NetApp SolidFire 產品及元素產品文件"^]
+

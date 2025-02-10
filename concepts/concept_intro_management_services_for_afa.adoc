@@ -1,0 +1,19 @@
+---
+permalink: concepts/concept_intro_management_services_for_afa.html 
+sidebar: sidebar 
+keywords: what is, what are, management services, service, vcp service, plugin service, microservice 
+summary: 管理服務可為SolidFire 不完整的Flash儲存設備提供集中和延伸的管理功能。這些服務包括Active IQ 不支援的系統遙測、記錄和服務更新、以及針對Element Plug-in for vCenter的QoSSIOC服務。 
+---
+= 管理服務SolidFire 、適用於整合式All Flash儲存設備
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+從元件 11.3 版本開始、 * 管理服務 * 會託管在上link:../concepts/concept_intro_management_node.html["管理節點"]、以便在主要版本之外更快地更新精選軟體服務。
+
+管理服務可為SolidFire 不完整的Flash儲存設備提供集中和延伸的管理功能。這些服務包括link:../concepts/concept_intro_solidfire_software_interfaces.html#netapp-element-plug-in-for-vcenter-server["NetApp混合雲控制"]、 Active IQ 系統遙測、記錄和服務更新、以及適用於 vCenter 的 Element 外掛程式的 QoSSIOC 服務。
+
+
+TIP: 深入瞭解 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理服務版本"^]。

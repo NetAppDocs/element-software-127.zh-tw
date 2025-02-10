@@ -1,0 +1,18 @@
+---
+permalink: try/task_try_overview.html 
+sidebar: sidebar 
+keywords: solidfire, element, lab on demand, demo node, element demo node 
+summary: 深入瞭解協助您開始使用Element軟體的資源與工具。 
+---
+= 歡迎試用
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+深入瞭解協助您開始使用Element軟體的資源與工具。
+
+* https://handsonlabs.netapp.com/lab/elementsw["隨需實驗室的私有雲端儲存靈活度與元素（需登入）"^]：本實驗介紹了不受限制地橫向擴充的概念、保證工作負載效能、以及適用於執行 Element 軟體之儲存系統的儲存基礎架構自動化。
+* link:task_use_demonode.html["使用Element示範節點試用儲存功能"^]： Element Demo Node 是 VMware 的 Element 軟體虛擬機器版本、可讓您輕鬆展示 NetApp HCI 和 SolidFire 產品的許多重要儲存功能。
+

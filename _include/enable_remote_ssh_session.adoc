@@ -1,0 +1,38 @@
+= 
+:allow-uri-read: 
+
+
+您可以開啟TCP連接埠、以便透過NetApp支援進行SSH反向通道連線。此連線可讓NetApp Support登入您的管理節點。
+
+.開始之前
+* 對於管理服務2.18及更新版本、預設會在管理節點上停用遠端存取功能。若要啟用遠端存取功能、請參閱 https://docs.netapp.com/us-en/element-software/mnode/task_mnode_ssh_management.html["管理管理節點上的SSH功能"]。
+* 如果您的管理節點位於Proxy伺服器後方、則在sshd.config檔案中需要下列TCP連接埠：
++
+[cols="15,25,60"]
+|===
+| TCP 連接埠 | 說明 | 連線方向 
+
+
+| 443 | API呼叫/HTTPS可透過開放式支援通道、將反向連接埠轉送至Web UI | 管理節點至儲存節點 
+
+
+| 22 | SSH登入存取權 | 管理節點至儲存節點、或從儲存節點至管理節點 
+|===
+
+
+.步驟
+* 登入管理節點、然後開啟終端機工作階段。
+* 出現提示時、輸入下列命令：
++
+`rst -r  sfsupport.solidfire.com -u element -p <port_number>`
+
+* 若要關閉遠端支援通道、請輸入下列命令：
++
+`rst --killall`
+
+* （選用）再次停用 https://docs.netapp.com/us-en/element-software/mnode/task_mnode_ssh_management.html["遠端存取功能"]。
++
+
+NOTE: 如果您未停用SSH、則會在管理節點上保持啟用狀態。啟用SSH的組態會持續在管理節點上進行更新和升級、直到手動停用為止。
+
+
