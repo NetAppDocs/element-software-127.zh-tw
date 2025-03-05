@@ -8008,7 +8008,6 @@
   <block id="3c625a13e6a27d16b31373132f1450a8" category="paragraph">指出排程是否會在下次排程器啟用時執行。如果為true、排程會在排程器下次作用時執行、然後將此值設回「假」。可能值：</block>
   <block id="714fceb471c374698251d925d8d05403" category="paragraph">排程的唯一ID。</block>
   <block id="3e31245b25836087aa43d5d4565230c2" category="paragraph">排程資訊</block>
-  <block id="29a9c6e40ddc0f47741633f0b0bd0699" category="paragraph">包括排程的唯一名稱、所建立快照的保留期間、以及建立快照的磁碟區Volume ID。</block>
   <block id="b06b56d23b646ad4c7c629956c9fb6a3" category="paragraph">指派給排程的唯一名稱。</block>
   <block id="01223b82a664dc5c4bb0d162a44002d1" category="paragraph">目前僅支援排程類型的快照。</block>
   <block id="0608ae69120a8f0e68c586e1bed7676b" category="paragraph">要套用至已建立之Snapshot或Group Snapshot的snapMirrorLabel、包含在scheduleInfo中。如果未設定、則此值為null。</block>
@@ -8808,7 +8807,6 @@
   <block id="24b56100da02e1fd4c8ccbb997e868ab" category="paragraph">BurstIOPSCredit</block>
   <block id="596b858c2e5a9adba143102768b4dfd1" category="paragraph">使用者可用的IOP點數總數。當磁碟區未使用最高設定的最大IOPS時、會累積點數。</block>
   <block id="45518dd87d9c3c80ec617e9d8b06c31a" category="paragraph">未完成的磁碟區讀寫作業數。</block>
-  <block id="53559c487d6329ff8a95081175ee8072" category="paragraph">使用的叢集容量量。</block>
   <block id="f6e65c6017cbd8accff3dedbaa7c9157" category="paragraph">desiredMetadataHoses</block>
   <block id="27921d101d13cbcdde780f0bf7b74051" category="paragraph">如果要在中繼資料服務之間移轉Volume中繼資料、則會將中繼資料（分區）服務移轉至。「null」值表示磁碟區未進行移轉。</block>
   <block id="5364fb1cb8e3fabb2c59f14551ca56b9" category="paragraph">過去500毫秒內完成Volume作業的平均時間（以微秒為單位）。「0」（零）值表示磁碟區沒有I/O。</block>
@@ -12284,4 +12282,25 @@
   <block id="41a6f75570e8276bfdd8656708159091" category="list-text">您想要使用最佳實務做法、而非探索每個可用選項。</block>
   <block id="1435e27f40347998b5c763bcc4df6b63" category="list-text">您想要使用ONTAP 的是無法使用系統管理程式或自動化指令碼工具的功能、而是使用功能不全的命令列介面（CLI）。</block>
   <block id="83d990511cbb8a6b72c2da3687386ede" category="list-text">您使用iSCSI將資料提供給用戶端。</block>
+  <block id="d9a22d7a8178d5b42a8750123cbfe5b1" category="list-text">完成</block>
+  <block id="acbccd83186c34328efe61415e4f06c3" category="paragraph">iosInProgress</block>
+  <block id="efadf566bdff7cd45611bcf2ea26634b" category="paragraph">此磁碟機的 I/O 數量正在進行中。</block>
+  <block id="0fb9cf5f04f61bb6f1151da57ceb1ca1" category="paragraph">讀取</block>
+  <block id="2e63b183661efd0e03c30a8933592b67" category="paragraph">每秒對此磁碟機的 Read() 呼叫數。</block>
+  <block id="0557cc41212e450b334e6cfd03e28356" category="paragraph">讀取已建置</block>
+  <block id="2d65b6a0c4e91c801de77a9d9219d227" category="paragraph">可合併成較大讀取的鄰近扇區的 read() 調用數。</block>
+  <block id="89892cc60750e3ae3839fe1bd6f0e295" category="paragraph">readMbec</block>
+  <block id="c30d492a58003b8cb74286227b4474f4" category="paragraph">讀取所花費的毫秒數。</block>
+  <block id="4dcc865dcd8a0440f3e955e66928b6a9" category="paragraph">寫入</block>
+  <block id="2723fa53100ce7b4222053e0cae1fe2a" category="paragraph">每秒對此磁碟機的寫入（）呼叫數。</block>
+  <block id="90355908c2c641db38cd1f8d115e8288" category="paragraph">寫入已建置</block>
+  <block id="dff2bd7a729604d5144c21832c60771e" category="paragraph">可合併成較大寫入的鄰近磁區的 write() 呼叫數目。</block>
+  <block id="48c52f79a065697f974edffe9baa1840" category="paragraph">writeMsec</block>
+  <block id="a104ca42a35244c8eaac66b37a617289" category="paragraph">寫入所花費的毫秒數。</block>
+  <block id="cbe31e551cb8a7eda07f7c2fbae6f80b" category="list-text"><block ref="dcd44d342c90672f6b7613a3fda7d755" prefix="" category="inline-code"></block>：指定是否允許在進行先前的快照複寫時建立新的快照。（布林值）</block>
+  <block id="e9eb5370de2e3375a67adb6b46c54033" category="list-text"><block ref="6366ebc98be76ca376a9a50b148937ea" prefix="" category="inline-code"></block>：保留快照的時間量。視時間而定，會以下列其中一種格式顯示：</block>
+  <block id="ec6874eecaec538abf3d408bf6b6b411" category="list-text"><block ref="cf54937a2330ac17aa523bf7130911a3" prefix="" category="inline-code"></block>：快照以先進先出（ FIFO ）為基礎保留。如果為空白、則快照會永遠保留。（字串）</block>
+  <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">" 小時：分：秒 "</block>
+  <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">包括排程的唯一名稱、所建立快照的保留期間、以及建立快照的磁碟區Volume ID。有效值：</block>
+  <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">浮點運算或整數，視同步作業類型而定</block>
 </blocks>
