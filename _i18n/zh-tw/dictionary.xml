@@ -10981,7 +10981,6 @@
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">步驟 1 ：下載 ISO 或 OVA 並部署 VM</block>
   <block id="90c4d8ddd76d9f5f86c144316cec5657" category="paragraph">從 NetApp 支援網站下載適當的 ISO 或 OVA ，然後安裝 VM 。</block>
   <block id="12b8893b065179b6b80fdc2d448862df" category="inline-link-macro">Element軟體</block>
-  <block id="4aee9657f267c579c49541b5f19ca32c" category="list-text">從 NetApp 支援網站的頁面下載 OVA 或 ISO 以供安裝<block ref="00b11b6abe7f0003872aa657422c59ae" category="inline-link-macro-rx"></block>。新的 OVA 包含更新的 SSL 憑證。</block>
   <block id="7b4b2bec7b806d58982537647a92deef" category="list-text">選擇*下載最新版本*並接受EULA。</block>
   <block id="9fd5f1f79bb7ead4a7bdb1a4e6b94825" category="list-text">選取您要下載的管理節點映像。</block>
   <block id="b8ccf40afa6e3a195a8f4d93c8daa17d" category="list-text">如果您下載OVA、請依照下列步驟操作：</block>
@@ -12303,4 +12302,5 @@
   <block id="bc0ffe4508f685d32386d4fcd929dd50" category="list-text">" 小時：分：秒 "</block>
   <block id="99eb6e1c13e9ae0bb02e022566f20121" category="paragraph">包括排程的唯一名稱、所建立快照的保留期間、以及建立快照的磁碟區Volume ID。有效值：</block>
   <block id="65dc2083558f47cd1151751a12c24549" category="paragraph">浮點運算或整數，視同步作業類型而定</block>
+  <block id="e43f2538484fde027e53efbedb634fce" category="list-text">從 NetApp 支援網站的頁面下載 OVA 或 ISO 以供安裝<block ref="00b11b6abe7f0003872aa657422c59ae" category="inline-link-macro-rx"></block>。</block>
 </blocks>
