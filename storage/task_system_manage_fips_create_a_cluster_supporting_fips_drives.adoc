@@ -15,8 +15,8 @@ summary: 在許多客戶環境中部署解決方案、安全性變得越來越�
 
 * link:task_system_manage_fips_avoid_mixing_nodes_for_fips_drives.html["避免混用FIPS磁碟機的節點"]
 * link:task_system_manage_fips_enable_encryption_at_rest.html["在靜止狀態下啟用加密"]
-* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives["識別節點是否已準備好使用FIPS磁碟機功能"]
+* link:task_system_manage_fips_identify_nodes_ready_for_fips_drives.html["識別節點是否已準備好使用FIPS磁碟機功能"]
 * link:task_system_manage_fips_enable_the_fips_drives_feature.html["啟用FIPS磁碟機功能"]
 * link:task_system_manage_fips_check_the_fips_drive_status.html["檢查FIPS磁碟機狀態"]
-* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature["疑難排解FIPS磁碟機功能"]
+* link:task_system_manage_fips_troubleshoot_the_fips_drive_feature.html["疑難排解FIPS磁碟機功能"]
 

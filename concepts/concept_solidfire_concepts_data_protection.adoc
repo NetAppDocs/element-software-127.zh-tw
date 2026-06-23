@@ -35,7 +35,7 @@ summary: 資料保護功能包括遠端複寫、Volume Snapshot、Volume Cloning
 * <<使用SnapMirror在元素ONTAP 叢集與叢集之間進行複寫>>
 
 
-如需更多資訊、請參閱 https://www.netapp.com/pdf.html?item=/media/10607-tr4741pdf.pdf["TR-4741：NetApp Element 《The》、《The》、《The》、《The》、《"^]。
+如需詳細資訊，請參閱 https://www.netapp.com/pdf.html?item=/media/10607-tr4741.pdf["TR-4741：NetApp Element 《The》、《The》、《The》、《The》、《"^]。
 
 
 
@@ -93,7 +93,7 @@ SnapMirror是一種NetApp Snapshot複寫技術、可協助災難恢復、專為�
 
 SnapMirror原生在NetApp ONTAP 的支援控制器上執行、並整合到元素中、這些元素可在NetApp HCI 支援的過程中執行於整個過程的過程中。SolidFireSnapMirror的控制邏輯位於ONTAP 整個過程中；因此、所有SnapMirror關係都必須至少涉及一個ONTAP 支援系統、才能執行協調工作。使用者主要ONTAP 透過Element UI來管理Element與相依叢集之間的關係、不過有些管理工作則位於NetApp ONTAP ®System Manager中。使用者也可以透過CLI和API來管理SnapMirror、ONTAP 而這兩者都可在支援中找到。
 
-請參閱 https://fieldportal.netapp.com/content/616239["TR-4651：NetApp SolidFire SnapMirror架構與組態"^]（需要登入）
+請參閱 https://www.netapp.com/pdf.html?item=/media/19771-tr-4651.pdf["TR-4651：NetApp SolidFire SnapMirror架構與組態"^]。
 
 您必須使用Element軟體、在叢集層級手動啟用SnapMirror功能。SnapMirror功能預設為停用、不會在新安裝或升級時自動啟用。
 

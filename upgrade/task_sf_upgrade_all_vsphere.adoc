@@ -19,7 +19,7 @@ keywords: netapp, solidfire, vsphere components, upgrade, vCenter, ESXi
 .步驟
 . 對於 vCSA 升級、 https://docs.netapp.com/us-en/vcp/vcp_task_qossioc.html#clear-qossioc-settings["清楚明瞭"^]插件中的 QoSSIOC 設定（ * NetApp Element 組態 > QoSSIOC 設定 * ）。程序完成後、會顯示「 *QoSSIOC 狀態 * 」欄位 `Not Configured`。
 . 對於 vCSA 和 Windows 升級、 https://docs.netapp.com/us-en/vcp/task_vcp_unregister.html["取消登錄"^]使用登錄公用程式與 vCenter Server 相關聯的外掛程式。
-. https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vcenter.upgrade.doc/GUID-7AFB6672-0B0B-4902-B254-EE6AE81993B2.html["升級vSphere、包括vCenter Server、ESXi、VM及其他VMware元件"^]。
+. https://techdocs.broadcom.com/["升級vSphere、包括vCenter Server、ESXi、VM及其他VMware元件"^]。
 +
 [IMPORTANT]
 ====
