@@ -15,6 +15,7 @@ summary: 工作階段物件包含叢集可見的每個Fibre Channel工作階段�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -85,6 +86,7 @@ Volume存取群組ID
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listfibrechannelsessions.adoc[ListFIBreChannelSessions]

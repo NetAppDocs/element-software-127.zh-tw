@@ -15,6 +15,7 @@ summary: 您可以使用SetLoginBanner方法來設定使用者登入Element Web�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -54,6 +55,7 @@ summary: 您可以使用SetLoginBanner方法來設定使用者登入Element Web�
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -85,6 +87,7 @@ summary: 您可以使用SetLoginBanner方法來設定使用者登入Element Web�
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -102,6 +105,7 @@ summary: 您可以使用SetLoginBanner方法來設定使用者登入Element Web�
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -120,6 +124,7 @@ summary: 您可以使用SetLoginBanner方法來設定使用者登入Element Web�
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.0

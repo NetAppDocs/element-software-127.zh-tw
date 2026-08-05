@@ -15,6 +15,7 @@ summary: Element軟體Web UI使用Update SnapMirrorRelationship方法、將SnapM
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -63,6 +64,7 @@ xref:reference_element_api_snapmirrorvolumeinfo.adoc[snapMirrorVolume資訊]
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -83,6 +85,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[snapMirrorRelationationat
 |===
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.1

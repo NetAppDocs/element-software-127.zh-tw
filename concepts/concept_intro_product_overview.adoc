@@ -17,6 +17,7 @@ summary: 一個包含獨立硬體元件（磁碟機和節點）的全快閃儲�
 
 
 
+[[solidfire-features]]
 == 功能SolidFire
 
 支援下列功能的系統：SolidFire
@@ -31,6 +32,7 @@ summary: 一個包含獨立硬體元件（磁碟機和節點）的全快閃儲�
 
 
 
+[[solidfire-deployment]]
 == 部署SolidFire
 
 使用NetApp提供的儲存節點、並整合NetApp Element 至支援功能完善的軟體。
@@ -39,6 +41,7 @@ link:../concepts/concept_solidfire_concepts_solidfire_architecture_overview.html
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://www.netapp.com/data-storage/solidfire/["支援All Flash儲存設備總覽SolidFire"^]

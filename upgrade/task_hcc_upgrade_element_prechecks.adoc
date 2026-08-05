@@ -52,6 +52,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-netapp-hybrid-cloud-control-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == 在升級儲存設備之前、請使用NetApp混合雲控制來執行Element儲存設備健全狀況檢查
 
 使用NetApp混合雲控制、您可以確認儲存叢集已準備好升級。
@@ -81,6 +82,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-api-to-run-element-storage-health-checks-prior-to-upgrading-storage]]
 == 在升級儲存設備之前、請使用API執行元素儲存設備健全狀況檢查
 
 您可以使用REST API來驗證儲存叢集是否已準備好升級。健全狀況檢查可驗證升級是否沒有任何障礙、例如擱置的節點、磁碟空間問題和叢集故障。
@@ -212,6 +214,7 @@ https://<ManagementNodeIP>/storage/1/
 
 
 
+[[storage-health-checks-made-by-the-service]]
 == 由服務進行儲存健全狀況檢查
 
 儲存健全狀況檢查會針對每個叢集進行下列檢查。

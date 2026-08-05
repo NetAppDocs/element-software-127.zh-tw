@@ -15,6 +15,7 @@ summary: 您可以管理SolidFire 適用於某個不實儲存系統的叢集管�
 
 
 
+[[storage-cluster-administrator-account-types]]
 == 儲存叢集管理員帳戶類型
 
 執行NetApp Element 下列兩種類型的系統管理員帳戶可存在於執行此軟件的儲存叢集：主叢集系統管理員帳戶和叢集系統管理員帳戶。
@@ -34,6 +35,7 @@ NOTE: 需要本機（非LDAP）叢集管理員帳戶、才能透過每節點UI�
 
 
 
+[[view-cluster-admin-details]]
 == 檢視叢集管理詳細資料
 
 . 若要建立全叢集（非LDAP）叢集管理員帳戶、請執行下列動作：
@@ -61,9 +63,13 @@ NOTE: 需要本機（非LDAP）叢集管理員帳戶、才能透過每節點UI�
 
 
 +
+[NOTE]
+====
+系統管理員存取類型可使用所有權限。
 
-NOTE: 系統管理員存取類型可使用所有權限。
+透過 API 可使用某些在 Element UI 中無法使用的存取類型。
 
+====
 +
 ** *類型*：叢集管理員的類型。可能值：
 +
@@ -81,6 +87,8 @@ NOTE: 系統管理員存取類型可使用所有權限。
 
 
 
+[[create-a-cluster-administrator-account]]
+[[create_cluster_admin_account]]
 == 建立叢集管理員帳戶
 
 您可以建立具有權限的新叢集管理員帳戶、以允許或限制存取儲存系統的特定區域。當您設定叢集管理員帳戶權限時、系統會針對您未指派給叢集管理員的任何權限、授予唯讀權限。
@@ -128,6 +136,7 @@ link:task_system_manage_enable_ldap_authentication.html["使用元素使用者�
 
 
 
+[[edit-cluster-administrator-permissions]]
 == 編輯叢集管理員權限
 
 您可以變更叢集管理員帳戶的報告權限、節點、磁碟機、磁碟區、帳戶、 和叢集層級存取。當您啟用權限時、系統會指派該層級的寫入存取權。系統會針對您未選取的層級、授予系統管理員使用者唯讀存取權。
@@ -141,6 +150,7 @@ link:task_system_manage_enable_ldap_authentication.html["使用元素使用者�
 
 
 
+[[change-passwords-for-cluster-administrator-accounts]]
 == 變更叢集管理員帳戶的密碼
 
 您可以使用Element UI來變更叢集管理員密碼。
@@ -152,12 +162,9 @@ link:task_system_manage_enable_ldap_authentication.html["使用元素使用者�
 . 按一下*儲存變更*。
 
 
-
-
-== 如需詳細資訊、請參閱
-
+.相關資訊
+* link:../api/reference_element_api_app_b_access_control.html["了解 Element API 可用的存取類型"]
 * link:task_system_manage_enable_ldap_authentication.html["使用元素使用者介面啟用LDAP驗證"]
 * link:concept_system_manage_manage_ldap.html["停用 LDAP"]
-* https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
 

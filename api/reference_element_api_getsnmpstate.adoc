@@ -15,12 +15,14 @@ summary: 您可以使用GetSnmpState方法來取得SNMP功能的目前狀態。
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -60,6 +62,7 @@ snmpV3Enabled
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -74,6 +77,7 @@ snmpV3Enabled
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -90,12 +94,14 @@ snmpV3Enabled
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_setsnmpacl.adoc[SetSnmpACL]

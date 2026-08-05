@@ -15,6 +15,7 @@ QoS物件包含有關Volume的服務品質（QoS）設定資訊。未指定QoS�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -69,6 +70,7 @@ Json物件
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_getdefaultqos.adoc[GetDefaultQoS]

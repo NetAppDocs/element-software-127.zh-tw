@@ -31,6 +31,7 @@ NOTE: 您可以同時使用IPv4和IPv6位址。
 
 
 
+[[complete-pre-configuration-steps-for-ldap-support]]
 == 完成LDAP支援的預先組態步驟
 
 在元素中啟用LDAP支援之前、您應該先設定Windows Active Directory伺服器、並執行其他的預先設定工作。
@@ -44,6 +45,7 @@ NOTE: 您可以同時使用IPv4和IPv6位址。
 
 
 
+[[enable-ldap-authentication-with-the-element-user-interface]]
 == 使用元素使用者介面啟用LDAP驗證
 
 您可以設定儲存系統與現有LDAP伺服器的整合。這可讓LDAP管理員集中管理使用者的儲存系統存取。
@@ -94,6 +96,7 @@ image::../media/element_new_cluster_admin.jpg[Element新叢集管理]
 
 
 
+[[enable-ldap-authentication-with-the-element-api]]
 == 使用Element API啟用LDAP驗證
 
 您可以設定儲存系統與現有LDAP伺服器的整合。這可讓LDAP管理員集中管理使用者的儲存系統存取。
@@ -199,6 +202,8 @@ searchBindPassword
 
 
 
+[[view-ldap-details]]
+[[view_ldap_details]]
 == 檢視 LDAP 詳細資料
 
 在「叢集」索引標籤的「LDAP」頁面上檢視LDAP資訊。
@@ -237,6 +242,7 @@ NOTE: 您必須啟用LDAP才能檢視這些LDAP組態設定。
 
 
 
+[[test-the-ldap-configuration]]
 == 測試LDAP組態
 
 設定 LDAP 之後、您應該使用元素 UI 或元素 API 方法來測試 LDAP `TestLdapAuthentication` 。
@@ -331,6 +337,7 @@ LDAP伺服器URI不正確。
 
 
 
+[[disable-ldap]]
 == 停用 LDAP
 
 您可以使用Element UI來停用LDAP整合。
@@ -345,6 +352,7 @@ LDAP伺服器URI不正確。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

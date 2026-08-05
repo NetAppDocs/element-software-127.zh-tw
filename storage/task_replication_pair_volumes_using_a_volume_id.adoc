@@ -55,6 +55,7 @@ NOTE: 您可以在配對程序之後指派複寫來源和目標。複寫來源�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_replication_volume_pairing_messages.adoc[Volume配對訊息]

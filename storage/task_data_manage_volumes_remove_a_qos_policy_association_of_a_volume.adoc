@@ -25,6 +25,7 @@ summary: 您可以選取自訂QoS設定、從Volume移除QoS原則關聯。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:task_data_manage_volumes_deleting_a_qos_policy.adoc[刪除QoS原則]

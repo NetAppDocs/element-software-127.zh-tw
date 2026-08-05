@@ -24,6 +24,7 @@ summary: 您可以使用下列步驟變更系統產生區塊叢集完整度警�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Flash_Storage/SF_Series/How_are_the_blockSpace_thresholds_calculated_for_Element["如何計算元素的區塊空間臨界值"^]

@@ -46,6 +46,7 @@ SnapMirror API方法由Element Web UI使用、用於管理鏡射於遠端ONTAP �
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

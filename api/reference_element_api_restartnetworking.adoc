@@ -19,6 +19,7 @@ summary: 您可以使用RESartNetworking方法重新啟動節點上的網路服�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -41,12 +42,14 @@ summary: 您可以使用RESartNetworking方法重新啟動節點上的網路服�
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -63,6 +66,7 @@ summary: 您可以使用RESartNetworking方法重新啟動節點上的網路服�
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -75,6 +79,7 @@ summary: 您可以使用RESartNetworking方法重新啟動節點上的網路服�
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

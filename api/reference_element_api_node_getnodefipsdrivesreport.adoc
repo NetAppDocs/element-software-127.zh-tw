@@ -15,12 +15,14 @@ summary: 您可以使用GetNodeFipsDrivesReport方法來檢查儲存叢集中單
 
 
 
+[[parameter]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -44,6 +46,7 @@ Json物件、包含此節點的FIPS 140-2功能支援狀態。可能值：
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -58,6 +61,7 @@ Json物件、包含此節點的FIPS 140-2功能支援狀態。可能值：
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -73,6 +77,7 @@ Json物件、包含此節點的FIPS 140-2功能支援狀態。可能值：
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 11.5

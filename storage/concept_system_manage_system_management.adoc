@@ -21,6 +21,7 @@ summary: 您可以在Element UI中管理系統。這包括啟用多因素驗證�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

@@ -23,6 +23,7 @@ keywords: netapp, mnode, management node, rest api, Element
 
 
 
+[[access-the-management-services-rest-api]]
 == 存取管理服務REST API
 
 .步驟
@@ -44,6 +45,7 @@ https://<ManagementNodeIP>/vcenter/1/
 
 
 
+[[view-stored-information-about-existing-controllers]]
 == 檢視現有控制器的儲存資訊
 
 您可以列出已在管理節點註冊的現有vCenter控制器、並使用REST API檢視其儲存資訊。
@@ -60,6 +62,7 @@ API會傳回所有已知vCenter控制器的清單、以及用於與每個控制�
 
 
 
+[[view-the-status-of-an-existing-controller]]
 == 檢視現有控制器的狀態
 
 您可以檢視在管理節點上登錄的任何現有vCenter控制器狀態。API會傳回狀態、指出NetApp混合雲控制是否可與vCenter控制器連線、以及該狀態的原因。
@@ -76,6 +79,7 @@ API會傳回此特定vCenter控制器的狀態、以及該狀態的原因。
 
 
 
+[[edit-the-stored-properties-of-a-controller]]
 == 編輯控制器的儲存內容
 
 您可以編輯已在管理節點上登錄之任何現有vCenter控制器的儲存使用者名稱或密碼。您無法編輯現有vCenter控制器的儲存IP位址。

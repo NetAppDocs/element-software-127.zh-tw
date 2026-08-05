@@ -203,6 +203,7 @@ NOTE: vCenter外掛程式包含線上說明內容。若要確保您的「說明�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

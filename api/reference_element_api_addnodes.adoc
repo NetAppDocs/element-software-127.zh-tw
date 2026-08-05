@@ -26,6 +26,7 @@ NOTE: 在新增節點之後、可能需要幾秒鐘的時間才能啟動並將�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -61,6 +62,7 @@ pendingNode
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -90,6 +92,7 @@ Json物件陣列
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -107,6 +110,7 @@ Json物件陣列
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -140,12 +144,14 @@ Json物件陣列
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_adddrives.adoc[新增磁碟機]

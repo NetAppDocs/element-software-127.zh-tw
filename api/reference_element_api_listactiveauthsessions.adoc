@@ -15,12 +15,14 @@ summary: 您可以使用listActiveAuthSessions方法列出所有作用中的已�
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -39,6 +41,7 @@ link:reference_element_api_authsessioninfo.html["驗證工作階段資訊"]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -51,6 +54,7 @@ link:reference_element_api_authsessioninfo.html["驗證工作階段資訊"]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -79,6 +83,7 @@ link:reference_element_api_authsessioninfo.html["驗證工作階段資訊"]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 12.0

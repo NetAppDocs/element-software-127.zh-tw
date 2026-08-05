@@ -67,6 +67,7 @@ NOTE: 使用者名稱和密碼可以使用大小寫字母、特殊字元和數�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * link:../api/index.html["使用Element API管理儲存設備"]

@@ -15,6 +15,7 @@ volumeStats物件包含個別Volume的統計資料。
 
 
 
+[[object-members]]
 == 物件成員
 
 您可以使用下列方法來取得部分或所有磁碟區的Volume Stats物件：

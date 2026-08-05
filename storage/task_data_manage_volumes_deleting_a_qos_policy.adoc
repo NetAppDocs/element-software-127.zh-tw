@@ -24,6 +24,7 @@ NOTE: 如果您正嘗試將某個Volume與QoS原則解除關聯、可以將該Vo
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:task_data_manage_volumes_remove_a_qos_policy_association_of_a_volume.adoc[移除磁碟區的QoS原則關聯]

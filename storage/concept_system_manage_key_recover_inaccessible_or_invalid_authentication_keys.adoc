@@ -15,6 +15,7 @@ summary: 偶爾會發生需要使用者介入的錯誤。發生錯誤時、會�
 
 
 
+[[the-cluster-is-unable-to-unlock-the-drives-due-to-a-kmipserverfault-cluster-fault]]
 == 由於KmipServerFault叢集故障、叢集無法解除鎖定磁碟機。
 
 當叢集第一次開機且金鑰伺服器無法存取或所需的金鑰無法使用時、就會發生這種情況。
@@ -24,6 +25,7 @@ summary: 偶爾會發生需要使用者介入的錯誤。發生錯誤時、會�
 
 
 
+[[a-sliceserviceunhealthy-fault-might-be-set-because-the-metadata-drives-have-been-marked-as-failed-and-placed-into-the-available-state]]
 == 可能會設定交叉分析eServiceUnhealthy故障、因為中繼資料磁碟機已標示為故障、並置於「可用」狀態。
 
 清除步驟：

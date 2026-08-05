@@ -15,6 +15,7 @@ summary: 您可以使用清單金鑰提供者Kmip方法擷取所有現有金鑰�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -62,6 +63,7 @@ kmipKeyProviderHasServerAssigned
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -82,6 +84,7 @@ link:reference_element_api_keyproviderkmip.html["KeyProviderKmip"]陣列
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -96,6 +99,7 @@ link:reference_element_api_keyproviderkmip.html["KeyProviderKmip"]陣列
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -122,6 +126,7 @@ link:reference_element_api_keyproviderkmip.html["KeyProviderKmip"]陣列
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 11.7

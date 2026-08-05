@@ -15,6 +15,7 @@ summary: 您可以使用SetSnmpInfo方法、在叢集節點上設定SNMP版本2�
 
 
 
+[[parameters]]
 == 參數
 
 
@@ -79,12 +80,14 @@ xref:reference_element_api_usmuser.adoc[使用者]
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example-with-snmp-v3-enabled]]
 == 啟用SNMP v3的申請範例
 
 此方法的要求類似於下列範例：
@@ -111,6 +114,7 @@ xref:reference_element_api_usmuser.adoc[使用者]
 ----
 
 
+[[request-example-with-snmp-v2-enabled]]
 == 啟用SNMP v2的申請範例
 
 此方法的要求類似於下列範例：
@@ -135,6 +139,7 @@ xref:reference_element_api_usmuser.adoc[使用者]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -149,6 +154,7 @@ xref:reference_element_api_usmuser.adoc[使用者]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

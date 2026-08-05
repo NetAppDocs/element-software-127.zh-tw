@@ -33,6 +33,7 @@ summary: 如果您未執行最新版本、則可取得先前版本的文件。
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

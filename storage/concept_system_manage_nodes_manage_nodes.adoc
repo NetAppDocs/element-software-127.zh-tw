@@ -17,6 +17,7 @@ summary: 您可以SolidFire 從「叢集」索引標籤的「節點」頁面管�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:task_system_manage_nodes_adding_a_node_to_a_cluster.adoc[新增節點至叢集]

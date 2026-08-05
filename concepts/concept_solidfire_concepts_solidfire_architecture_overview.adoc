@@ -42,6 +42,7 @@ image::../media/solidfire_concepts_guide_architecture_image.gif[Element軟體架
 
 
 
+[[common-urls]]
 == 通用URL
 
 以下是SolidFire 您搭配使用的通用URL：
@@ -70,6 +71,7 @@ image::../media/solidfire_concepts_guide_architecture_image.gif[Element軟體架
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

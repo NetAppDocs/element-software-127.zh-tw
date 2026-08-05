@@ -15,6 +15,7 @@ snapMirrorNetworkInterface物件包含叢集間邏輯介面（LIF）的相關資
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

@@ -15,6 +15,7 @@ summary: 您可以使用SetConfig方法來設定節點的網路和叢集資訊�
 
 
 
+[[parameter]]
 == 參數
 
 注意：
@@ -54,6 +55,7 @@ xref:reference_element_api_network_all_interfaces.adoc[網路（所有介面）]
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -76,6 +78,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -98,18 +101,21 @@ Json物件
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法的回應與getconfig方法的傳回相同。使用SetConfig時、會顯示物件顯示的所有欄位和更新的值。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_setclusterconfig.adoc[SetClusterConfig]

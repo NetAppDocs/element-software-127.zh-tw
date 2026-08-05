@@ -43,6 +43,7 @@ NOTE: 「反向重新同步」作業會建立新的關係、使原始來源Volum
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:concept_snapmirror_failback_scenarios.adoc[SnapMirror容錯回復案例]

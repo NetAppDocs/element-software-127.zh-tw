@@ -19,6 +19,7 @@ summary: 您可以使用Get非 同步還原來擷取非同步方法呼叫的結�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -54,6 +55,7 @@ keepResult
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -132,6 +134,7 @@ ISO 8601日期字串
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -148,6 +151,7 @@ ISO 8601日期字串
 ----
 
 
+[[response-example-method-error]]
 == 回應範例：方法錯誤
 
 此方法會傳回類似下列範例的回應：
@@ -167,6 +171,7 @@ ISO 8601日期字串
 
 
 
+[[response-example-asynchronous-task-error]]
 == 回應範例：非同步工作錯誤
 
 此方法會傳回類似下列範例的回應：
@@ -193,6 +198,7 @@ ISO 8601日期字串
 
 
 
+[[response-example-asynchronous-task-success]]
 == 回應範例：非同步工作成功
 
 此方法會傳回類似下列範例的回應：
@@ -218,6 +224,7 @@ ISO 8601日期字串
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

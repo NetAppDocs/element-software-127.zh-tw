@@ -26,6 +26,7 @@ summary: 資料保護功能包括遠端複寫、Volume Snapshot、Volume Cloning
 
 
 
+[[remote-replication-types]]
 == 遠端複寫類型
 
 遠端複寫資料的形式如下：
@@ -39,6 +40,7 @@ summary: 資料保護功能包括遠端複寫、Volume Snapshot、Volume Cloning
 
 
 
+[[synchronous-and-asynchronous-replication-between-clusters]]
 === 叢集之間的同步與非同步複寫
 
 對於執行NetApp Element Real-Software的叢集、即時複寫功能可讓您快速建立Volume資料的遠端複本。
@@ -73,6 +75,7 @@ summary: 資料保護功能包括遠端複寫、Volume Snapshot、Volume Cloning
 
 
 
+[[snapshot-only-replication]]
 === 純快照複寫
 
 純快照資料保護功能會在特定時間點將變更的資料複寫到遠端叢集。只會複寫在來源叢集上建立的快照。來自來源Volume的作用中寫入不會。
@@ -83,6 +86,7 @@ Snapshot複寫不會影響非同步或同步複寫。
 
 
 
+[[replication-between-element-and-ontap-clusters-using-snapmirror]]
 === 使用SnapMirror在元素ONTAP 叢集與叢集之間進行複寫
 
 有了NetApp SnapMirror技術、您可以複製使用NetApp Element 支援還原的功能所拍攝的快照ONTAP 、以利災難恢復。在SnapMirror關係中、元素是一個端點、ONTAP 而不只是一個端點、
@@ -109,6 +113,7 @@ SnapMirror原生在NetApp ONTAP 的支援控制器上執行、並整合到元素
 
 
 
+[[volume-snapshots-for-data-protection]]
 == 磁碟區快照、提供資料保護
 
 Volume快照是Volume的時間點複本、您可以稍後用來將磁碟區還原至該特定時間。
@@ -123,6 +128,7 @@ Volume快照是Volume的時間點複本、您可以稍後用來將磁碟區還�
 
 
 
+[[volume-clones]]
 == Volume複製
 
 單一磁碟區或多個磁碟區的複本是資料的時間點複本。當您複製磁碟區時、系統會建立磁碟區的快照、然後建立快照所參照資料的複本。
@@ -133,6 +139,7 @@ Volume快照是Volume的時間點複本、您可以稍後用來將磁碟區還�
 
 
 
+[[backup-and-restore-process-overview-for-element-storage]]
 == 元素儲存的備份與還原程序總覽
 
 您可以將磁碟區備份並還原至其他SolidFire 的不二儲存區、以及與Amazon S3或OpenStack Swift相容的次要物件存放區。
@@ -148,6 +155,7 @@ Volume快照是Volume的時間點複本、您可以稍後用來將磁碟區還�
 
 
 
+[[protection-domains]]
 == 保護網域
 
 Protection Domain是一種節點或一組節點、可將任何部分或甚至所有節點集中在一起、同時維持資料可用度。保護網域可讓儲存叢集自動修復機箱遺失（機箱關聯性）或整個網域（機箱群組）的問題。
@@ -171,6 +179,7 @@ Protection Domain配置會將每個節點指派給特定的Protection Domain。
 
 
 
+[[custompdcustom-protection-domains]]
 == [Custom_pd]]自訂保護網域
 
 您可以定義符合您特定機箱和節點配置的自訂保護網域配置、以及每個節點與一個且只與一個自訂保護網域相關聯的位置。根據預設、每個節點都會指派給相同的預設自訂保護網域。
@@ -198,6 +207,7 @@ Protection Domain配置會將每個節點指派給特定的Protection Domain。
 
 
 
+[[double-helix-high-availability]]
 == 雙倍Helix高可用度
 
 雙Helix資料保護是一種複寫方法、可在系統內的所有磁碟機之間分散至少兩個備援的資料複本。「無RAID」方法可讓系統吸收儲存系統所有層級的多個並行故障、並快速修復。

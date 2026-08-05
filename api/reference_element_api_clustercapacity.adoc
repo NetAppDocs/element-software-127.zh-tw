@@ -15,6 +15,7 @@ summary: 叢集容量物件包含叢集的高層容量測量。您可以使用Ge
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -222,6 +223,7 @@ usedMetadata空間即時資料
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_getclustercapacity.adoc[GetClusterCapacity]

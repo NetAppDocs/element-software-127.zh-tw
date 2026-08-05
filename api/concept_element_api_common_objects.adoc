@@ -100,6 +100,7 @@ Element軟體API使用Json物件來呈現組織化的資料概念。其中許多
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

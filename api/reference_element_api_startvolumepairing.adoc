@@ -15,6 +15,7 @@ summary: 您可以使用StartVolume Pairing方法、從用於與其他Volume配�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -55,6 +56,7 @@ Volume ID
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -73,6 +75,7 @@ API 方法使用的字元字串xref:reference_element_api_completevolumepairing.
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -90,6 +93,7 @@ API 方法使用的字元字串xref:reference_element_api_completevolumepairing.
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -105,12 +109,14 @@ API 方法使用的字元字串xref:reference_element_api_completevolumepairing.
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_completevolumepairing.adoc[完成Volume配對]

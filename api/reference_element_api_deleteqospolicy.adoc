@@ -15,6 +15,7 @@ summary: 您可以使用刪除QoSPolicy方法、從系統中刪除QoS原則。�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,12 +38,14 @@ qosPolicyID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -59,6 +62,7 @@ qosPolicyID
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -72,6 +76,7 @@ qosPolicyID
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

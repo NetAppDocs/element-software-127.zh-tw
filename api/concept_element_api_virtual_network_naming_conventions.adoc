@@ -19,6 +19,7 @@ summary: 利用等量遞增的數字、將系統中所有物件的唯一識別�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

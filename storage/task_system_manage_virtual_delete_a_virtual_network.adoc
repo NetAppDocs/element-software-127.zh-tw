@@ -21,6 +21,7 @@ summary: 您可以移除虛擬網路物件。在移除虛擬網路之前、您�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:task_system_manage_virtual_edit_a_virtual_network.adoc[編輯虛擬網路]

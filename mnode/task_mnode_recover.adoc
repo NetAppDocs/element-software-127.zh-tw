@@ -56,6 +56,7 @@ keywords: netapp, element, management node, mnode, disaster recovery, redeploy, 
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == 下載ISO或OVA並部署VM
 
 . 從 NetApp 支援網站的頁面下載 OVA 或 ISO 以供安裝 https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["Element軟體"^]。
@@ -97,6 +98,7 @@ NOTE: 使用映像安裝管理節點可能會導致啟動畫面出現30秒延遲
 
 
 
+[[configure-the-network]]
 == 設定網路
 
 . 使用終端使用者介面（TUI）建立管理節點管理使用者。
@@ -113,6 +115,7 @@ NOTE: 如果您需要額外的 NIC 來隔離儲存流量、請參閱設定其他
 
 
 
+[[configure-time-sync]]
 == 設定時間同步
 
 . 使用NTP確保管理節點與儲存叢集之間的時間同步：
@@ -190,6 +193,7 @@ NOTE: 完成時間同步組態後、請勿編輯 NTP 、因為當您在管理節
 
 
 
+[[configure-the-management-node]]
 == 設定管理節點
 
 . 建立管理服務套裝組合內容的暫用目的地目錄：
@@ -224,6 +228,7 @@ echo '{"trident": true, "mvip": "[mvip IP address]", "account_name": "[persisten
 *** *[持續磁碟區帳戶名稱]*：與此儲存叢集中所有持續磁碟區相關聯的帳戶名稱。
 
 
+.. [[step_6_recover_mnode_redeploy]]
 
 
 . 設定並執行管理節點重新部署命令、以連線至叢集上裝載的持續磁碟區、並使用先前的管理節點組態資料啟動服務：

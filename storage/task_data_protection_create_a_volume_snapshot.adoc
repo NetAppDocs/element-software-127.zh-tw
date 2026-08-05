@@ -43,6 +43,7 @@ summary: 您可以建立作用中磁碟區的快照、隨時保留磁碟區映�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:task_data_protection_schedule_a_snapshot_task.adoc[排程快照]

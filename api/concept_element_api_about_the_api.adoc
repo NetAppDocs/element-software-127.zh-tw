@@ -33,6 +33,7 @@ NOTE: 當儲存叢集負載沉重、或是您提交許多連續的API要求而�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

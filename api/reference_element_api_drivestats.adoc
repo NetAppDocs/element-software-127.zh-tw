@@ -15,6 +15,7 @@ driveStats物件包含單一磁碟機的高層活動量測。您可以使用 API
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -249,6 +250,7 @@ writeMsec
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_getdrivestats.adoc[GetDriveStats]

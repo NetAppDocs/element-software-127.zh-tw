@@ -86,6 +86,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-storage-firmware]]
 == 使用NetApp混合雲控制UI升級儲存韌體
 
 您可以使用NetApp混合雲控制UI來升級叢集中儲存節點的韌體。
@@ -144,6 +145,7 @@ NOTE: 在升級進行期間、您可以離開頁面、稍後再返回頁面、�
 
 
 
+[[upgrade-status-changes]]
 === 升級狀態變更
 
 以下是使用者介面中「*升級狀態*」欄在升級前、期間及之後顯示的不同狀態：
@@ -175,6 +177,7 @@ NOTE: 在升級進行期間、您可以離開頁面、稍後再返回頁面、�
 |===
 
 
+[[what-happens-if-an-upgrade-fails-using-netapp-hybrid-cloud-control]]
 == 如果使用NetApp混合式雲端控制進行升級失敗、會發生什麼情況
 
 如果磁碟機或節點在升級期間故障、則元素UI會顯示叢集故障。升級程序不會繼續到下一個節點、而是等待叢集故障解決。UI中的進度列顯示升級正在等待叢集故障解決。在此階段、在UI中選取* Pause*將無法運作、因為升級會等待叢集正常運作。您需要與NetApp支援部門接洽、以協助調查故障。
@@ -191,6 +194,7 @@ CAUTION: 在更新節點時中止叢集升級、可能會導致磁碟機無法�
 
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-storage-firmware]]
 == 使用NetApp混合雲控制API升級儲存韌體
 
 您可以使用API將叢集中的儲存節點升級至最新的Element軟體版本。您可以使用自己選擇的自動化工具來執行API。此處記錄的API工作流程使用管理節點上可用的REST API UI作為範例。

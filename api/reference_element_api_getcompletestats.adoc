@@ -23,6 +23,7 @@ NetApp 工程設計使用 `GetCompleteStats` API 方法來測試新功能。從�
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

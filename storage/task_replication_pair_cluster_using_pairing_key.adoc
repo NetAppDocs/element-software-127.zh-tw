@@ -39,6 +39,7 @@ IMPORTANT: 請勿修改配對金鑰中的任何字元。如果修改金鑰、金
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_replication_pair_cluster_using_mvip.adoc[使用MVIP配對叢集]

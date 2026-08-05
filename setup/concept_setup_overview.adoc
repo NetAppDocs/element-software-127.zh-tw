@@ -30,6 +30,7 @@ image::../media/sf_and_element_workflow_for_setup_shorter_workflow.png[設定工
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * link:../setup/concept_setup_whats_next.html["探索使用儲存設備的後續步驟"]

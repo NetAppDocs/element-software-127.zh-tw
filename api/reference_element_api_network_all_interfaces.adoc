@@ -15,6 +15,7 @@ summary: 網路（所有介面）物件會收集有關儲存節點網路介面�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -62,6 +63,7 @@ xref:reference_element_api_network_local_interfaces.adoc[網路（本機介面�
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_getconfig.adoc[組態設定]

@@ -63,6 +63,7 @@ IMPORTANT: 將電源供應器滑入機箱時、請勿過度施力、以免損壞
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

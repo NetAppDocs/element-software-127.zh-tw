@@ -15,6 +15,7 @@ summary: 您可以使用管理節點上的CreateClusterSupportBundle、從叢集
 
 
 
+[[parameters]]
 == 參數
 
 
@@ -109,12 +110,14 @@ mvip
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -133,6 +136,7 @@ mvip
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -157,6 +161,7 @@ mvip
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

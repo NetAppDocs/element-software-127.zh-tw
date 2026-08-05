@@ -15,6 +15,7 @@ Element 軟體 Web UI 會使用此 `ListSnapMirrorRelationships`方法來列出�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -89,6 +90,7 @@ Vserver
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -109,6 +111,7 @@ xref:reference_element_api_snapmirrorrelationship.adoc[snapMirrorRelationationat
 |===
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.1

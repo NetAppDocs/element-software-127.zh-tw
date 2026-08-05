@@ -36,6 +36,7 @@ NOTE: 叢集SSL憑證會自動套用至新增至叢集的所有新節點。從�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * link:../mnode/reference_change_mnode_default_ssl_certificate.html["變更管理節點的預設SSL憑證"]

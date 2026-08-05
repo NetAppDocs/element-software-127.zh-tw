@@ -15,6 +15,7 @@ snapMirrorAggregate物件包含可用ONTAP 的物件資訊、這些集合體是�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

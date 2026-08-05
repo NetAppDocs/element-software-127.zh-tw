@@ -15,6 +15,7 @@ idpConfigInfo物件包含有關協力廠商身分識別供應商（IDP）的組�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

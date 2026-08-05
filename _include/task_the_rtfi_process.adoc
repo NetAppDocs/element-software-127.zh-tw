@@ -27,6 +27,7 @@ RTFI程序會執行下列高層級作業：
 
 
 
+[[perform-the-rtfi-process]]
 == 執行RTFI程序
 
 請使用下列程序還原SolidFire 您的節點上的Element軟體。
@@ -92,6 +93,7 @@ NOTE: 如果您想在RTFI程序期間觀看主控台、可以按下* ALT+F8*鍵�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

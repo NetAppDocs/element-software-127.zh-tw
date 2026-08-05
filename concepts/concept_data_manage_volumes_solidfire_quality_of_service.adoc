@@ -18,6 +18,7 @@ NOTE: 支援QoS建議頁面、提供最佳組態和QoS設定的建議。SolidFir
 
 
 
+[[quality-of-service-parameters]]
 == 服務品質參數
 
 IOPS參數的定義方式如下：
@@ -53,6 +54,7 @@ IOPS參數的定義方式如下：
 
 
 
+[[qos-value-limits]]
 == QoS值限制
 
 以下是QoS的最小值和最大值。
@@ -74,6 +76,7 @@ IOPS參數的定義方式如下：
 
 
 
+[[qos-performance]]
 == QoS效能
 
 QoS效能曲線顯示區塊大小與IOPS百分比之間的關係。
@@ -88,6 +91,7 @@ image::../media/solidfire_qos_performance_curve.png[說明QoS：增加區塊大�
 
 
 
+[[qos-policies]]
 == QoS原則
 
 QoS原則可讓您建立及儲存標準化的服務品質設定、以便套用至許多磁碟區。
@@ -101,6 +105,7 @@ NOTE: 選取的叢集必須是元素10.0或更新版本才能使用QoS原則、�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

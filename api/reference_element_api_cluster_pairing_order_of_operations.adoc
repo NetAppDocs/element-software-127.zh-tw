@@ -31,6 +31,7 @@ NOTE: 基於安全考量、不應透過電子郵件將配對金鑰傳送給其�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_startclusterpairing.adoc[StartClusterPairing]

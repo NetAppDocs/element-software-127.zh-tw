@@ -57,6 +57,7 @@ Element 12.2管理節點為選用升級。現有部署不需要此功能。
 
 
 
+[[step-1-download-iso-or-ova-and-deploy-the-vm]]
 == 步驟 1 ：下載 ISO 或 OVA 並部署 VM
 
 從 NetApp 支援網站下載適當的 ISO 或 OVA ，然後安裝 VM 。
@@ -106,6 +107,8 @@ NOTE: 使用映像安裝管理節點可能會導致啟動畫面出現30秒延遲
 
 
 
+[[step-2-create-the-management-node-admin-and-configure-the-network]]
+[[create_mnode_admin]]
 == 步驟 2 ：建立管理節點管理並設定網路
 
 VM 安裝完成後，建立管理節點管理員使用者，並設定管理節點網路。
@@ -137,6 +140,7 @@ NOTE: 如果您需要額外的 NIC 來隔離儲存流量、請參閱設定其他
 
 
 
+[[step-3-configure-time-sync]]
 == 步驟 3 ：設定時間同步
 
 在設定管理節點之前，請先同步管理節點與儲存叢集之間的時間。
@@ -158,7 +162,7 @@ sudo service ntpd stop
 . 編輯 NTP 組態檔案 `/etc/ntp.conf`：
 +
 .. (`server 0.gentoo.pool.ntp.org`在每個服務器的前面添加一個，註釋掉默認服務器） `#`。
-.. 為您要新增的每個預設時間伺服器新增一行。預設時間伺服器必須與您要在中使用的儲存叢集上所使用的 NTP 伺服器相同link:task_mnode_install.html#set-up-the-management-node["後續步驟"]。
+.. 為每個要新增的預設時間伺服器新增一行。預設時間伺服器必須與您將在 <<set-up-the-management-node,後續步驟>> 中使用的儲存設備叢集上的 NTP 伺服器相同。
 +
 [listing]
 ----
@@ -213,10 +217,11 @@ NOTE: 如果您日後對VM進行變更、請勿啟用此選項。
 
 
 
-NOTE: 完成時間同步組態後、請勿編輯 NTP 、因為當您在管理節點上執行時、 NTP 會受到影響link:task_mnode_install.html#set-up-the-management-node["設定命令"]。
+NOTE: 完成時間同步組態後、請勿編輯 NTP 、因為當您在管理節點上執行時、 NTP 會受到影響<<step_6_recover_mnode_redeploy,重新部署命令>>。
 
 
 
+[[step-4-set-up-the-management-node]]
 == 步驟 4 ：設定管理節點
 
 使用命令設定管理節點 `setup-mnode`。
@@ -240,7 +245,7 @@ NOTE: 命令名稱的縮寫形式以括弧（）表示、可取代完整名稱�
 
 +
 *** *-mnode_admin_user（-mu）[username]*：管理節點系統管理員帳戶的使用者名稱。這可能是您用來登入管理節點的使用者帳戶使用者名稱。
-*** *-storage mvip（-sm）[MVIP位址]*：執行Element軟體之儲存叢集的管理虛擬IP位址（MVIP）。使用您在中使用的相同儲存叢集link:task_mnode_install.html#configure-time-sync["NTP伺服器組態"]來設定管理節點。
+*** *--storage_mvip (-sm) [MVIP 位址]*: 執行 Element 軟體的儲存設備叢集的管理虛擬 IP 位址 （MVIP）。請使用與您在 link:task_mnode_recover.html#configure-time-sync["NTP伺服器組態"] 期間相同的儲存設備叢集來設定管理節點。
 *** *--STERY_USERNAME （ -su ） [username]* ：由參數指定的叢集的儲存叢集管理員使用者名稱 `--storage_mvip`。
 *** *-遙測啟動（-t）[true]*：保留值true、讓Active IQ 資料收集功能得以透過支援以供分析之用。
 
@@ -283,6 +288,7 @@ NOTE: 對於與叢集上任何現有帳戶名稱不同的持續磁碟區、請�
 
 
 
+[[step-5-configure-controller-assets]]
 == 步驟 5 ：設定控制器資產
 
 找出安裝 ID 並新增 vCenter 控制器資產。
@@ -345,6 +351,7 @@ NOTE: 您應在vCenter中建立新的NetApp HCC角色、以新增控制器子資
 
 
 
+[[find-more-information]]
 == 瞭解更多資訊
 
 * link:../concepts/concept_solidfire_concepts_volumes.html#persistent-volumes["持續磁碟區"]

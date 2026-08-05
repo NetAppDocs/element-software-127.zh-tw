@@ -17,6 +17,7 @@ summary: 您可以將磁碟區備份並還原至其他SolidFire 的不一致儲�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_data_protection_back_up_volume_to_amazon_s3.adoc[將磁碟區備份至Amazon S3物件存放區]

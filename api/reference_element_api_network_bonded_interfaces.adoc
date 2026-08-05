@@ -15,6 +15,7 @@ summary: 網路（繫結介面）物件包含儲存節點上已繫結網路介�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -294,6 +295,7 @@ MTU
 |===
 
 
+[[member-modifiability-and-node-states]]
 == 成員可修改性和節點狀態
 
 此表格指出是否可在每個可能的節點狀態下修改物件參數。
@@ -602,6 +604,7 @@ MTU
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_getconfig.adoc[組態設定]

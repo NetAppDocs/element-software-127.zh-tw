@@ -15,6 +15,7 @@ storageContainer物件包含虛擬Volume儲存容器的屬性。您可以使用 
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -100,6 +101,7 @@ UUID陣列
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_liststoragecontainers.adoc[清單StorageContainer]

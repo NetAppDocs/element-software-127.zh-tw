@@ -15,6 +15,7 @@ summary: 您可以使用RemoveNodeSSLCertificate方法移除管理節點的使�
 
 
 
+[[parameters]]
 == 參數
 
 
@@ -28,12 +29,14 @@ https://<management node IP>:442/json-rpc/10.0
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -48,6 +51,7 @@ https://<management node IP>:442/json-rpc/10.0
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：

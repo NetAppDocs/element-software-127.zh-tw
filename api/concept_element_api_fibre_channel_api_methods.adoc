@@ -22,6 +22,7 @@ summary: 您可以使用Fibre Channel API方法來新增、修改或移除儲存
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

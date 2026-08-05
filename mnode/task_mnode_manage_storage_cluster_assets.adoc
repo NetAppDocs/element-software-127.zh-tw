@@ -32,6 +32,7 @@ keywords: netapp, mnode, management node, rest api, Element, assets
 
 
 
+[[retrieve-the-installation-id-and-cluster-id-of-a-storage-cluster-asset]]
 == 擷取儲存叢集資產的安裝ID和叢集ID
 
 您可以使用REST API取得儲存叢集的安裝ID和ID。您需要安裝ID來新增儲存叢集資產、以及叢集ID來修改或刪除特定的儲存叢集資產。
@@ -98,6 +99,7 @@ API會傳回此安裝中所有已知儲存叢集的清單。
 
 
 
+[[add-a-new-storage-cluster-asset]]
 == 新增儲存叢集資產
 
 您可以使用REST API將一或多個新的儲存叢集資產新增至管理節點庫存。當您新增儲存叢集資產時、它會自動登錄到管理節點。
@@ -163,6 +165,7 @@ API會傳回包含新增儲存叢集資產相關資訊的物件、例如名稱�
 
 
 
+[[edit-the-stored-credentials-for-a-storage-cluster-asset]]
 == 編輯儲存叢集資產的儲存認證資料
 
 您可以編輯管理節點用來登入儲存叢集的已儲存認證。您選擇的使用者必須擁有叢集管理存取權。
@@ -212,6 +215,7 @@ https://<ManagementNodeIP>/storage/1/
 
 
 
+[[delete-a-storage-cluster-asset]]
 == 刪除儲存叢集資產
 
 如果儲存叢集不再服務、您可以刪除儲存叢集資產。當您移除儲存叢集資產時、它會自動從管理節點取消註冊。

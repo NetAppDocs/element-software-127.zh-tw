@@ -28,6 +28,7 @@ summary: 透過廣播模式、您可以指示叢集中的每個節點在網路�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

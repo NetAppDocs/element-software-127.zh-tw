@@ -15,6 +15,7 @@ summary: 您可以使用GetStorageContainerEfficiency方法擷取虛擬Volume儲
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,6 +38,7 @@ storageContainerID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -93,6 +95,7 @@ ISO 8601資料字串
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -109,6 +112,7 @@ ISO 8601資料字串
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -128,6 +132,7 @@ ISO 8601資料字串
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

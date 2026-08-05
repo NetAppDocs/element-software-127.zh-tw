@@ -17,6 +17,7 @@ summary: 許多API要求和回應都使用物件和簡單類型。物件是金�
 
 
 
+[[object-member]]
 == 物件成員
 
 此物件包含下列成員：
@@ -35,6 +36,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 下列要求範例使用AddClusterAdmin方法：

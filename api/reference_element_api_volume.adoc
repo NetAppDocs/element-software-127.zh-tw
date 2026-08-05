@@ -15,6 +15,7 @@ Volume物件包含有關未配對或配對磁碟區的組態資訊。它不包�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -293,6 +294,7 @@ UUID
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_listactivevolumes.adoc[listActiveVolumes]

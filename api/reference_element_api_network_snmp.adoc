@@ -15,6 +15,7 @@ SNMP網路物件包含有關叢集節點SNMP v3組態的資訊。
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -67,6 +68,7 @@ SNMP社群字串。
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_getsnmpinfo.adoc[GetSnmpInfo]

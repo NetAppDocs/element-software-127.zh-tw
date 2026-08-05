@@ -24,6 +24,7 @@ keywords: netapp, element, cluster, element, account, user, volume, hybrid cloud
 
 
 
+[[enable-ldap]]
 == 啟用 LDAP
 
 若要將LDAP用於任何使用者帳戶、您必須先啟用LDAP。
@@ -40,12 +41,14 @@ keywords: netapp, element, cluster, element, account, user, volume, hybrid cloud
 
 
 
+[[manage-authoritative-cluster-accounts]]
 == 管理授權叢集帳戶
 
 link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html#authoritative-cluster-user-accounts["驗證使用者帳戶"]可從 NetApp 混合雲控制的右上角功能表「使用者管理」選項進行管理。這些類型的帳戶可讓您針對與NetApp混合雲控制節點和叢集執行個體相關的任何儲存資產進行驗證。有了這個帳戶、您就能跨所有叢集管理磁碟區、帳戶、存取群組等。
 
 
 
+[[create-an-authoritative-cluster-account]]
 === 建立授權叢集帳戶
 
 您可以使用NetApp混合雲控制來建立帳戶。
@@ -82,6 +85,7 @@ TIP: 若要確保群組的所有子系都繼承權限、請在LDAP伺服器中�
 
 
 
+[[edit-an-authoritative-cluster-account]]
 === 編輯授權叢集帳戶
 
 您可以使用NetApp混合雲控制變更使用者帳戶的權限或密碼。
@@ -106,6 +110,7 @@ NOTE: NetApp混合雲控制UI可能需要2分鐘的時間來重新整理庫存�
 
 
 
+[[delete-an-authoritative-user-account]]
 === 刪除授權使用者帳戶
 
 您可以在不再需要時刪除一或多個帳戶。您可以刪除LDAP使用者帳戶。
@@ -121,6 +126,7 @@ NOTE: NetApp混合雲控制UI可能需要2分鐘的時間來重新整理庫存�
 
 
 
+[[manage-volume-accounts]]
 == 管理Volume帳戶
 
 link:../concepts/concept_solidfire_concepts_accounts_and_permissions.html#volume-accounts["Volume帳戶"]可在混合雲控制 Volumes （ NetApp 混合雲控制磁碟區）表中進行管理。這些帳戶僅適用於建立帳戶的儲存叢集。這些類型的帳戶可讓您在網路上設定磁碟區的權限、但不會影響這些磁碟區之外的任何功能。
@@ -129,6 +135,7 @@ Volume帳戶包含存取指派給它的磁碟區所需的CHAP驗證。
 
 
 
+[[create-a-volume-account]]
 === 建立Volume帳戶
 
 建立此磁碟區的專屬帳戶。
@@ -154,6 +161,7 @@ NOTE: 若要自動產生任一密碼、請將認證欄位保留空白。
 
 
 
+[[edit-a-volume-account]]
 === 編輯Volume帳戶
 
 您可以變更CHAP資訊、並變更帳戶為作用中或鎖定狀態。
@@ -172,6 +180,7 @@ IMPORTANT: 刪除或鎖定與管理節點相關的帳戶、會導致管理節點
 
 
 
+[[delete-a-volume-account]]
 === 刪除Volume帳戶
 
 刪除不再需要的帳戶。

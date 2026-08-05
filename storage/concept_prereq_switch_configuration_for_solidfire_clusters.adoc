@@ -68,6 +68,7 @@ summary: 該產品具備特定的交換器需求和最佳實務做法、NetApp E
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/hci/docs/hci_prereqs_network_switch.html["網路和交換器需求NetApp HCI"^]

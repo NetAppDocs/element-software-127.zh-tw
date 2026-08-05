@@ -15,6 +15,7 @@ SnapMirrorRelationship物件包含有關元素Volume與ONTAP SnapMirror Volume�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

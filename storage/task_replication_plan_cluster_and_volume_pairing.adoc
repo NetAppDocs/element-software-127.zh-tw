@@ -26,6 +26,7 @@ NOTE: WAN加速器設備未經NetApp認證、無法在複寫資料時使用。�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_replication_pair_clusters.adoc[配對叢集以進行複寫]

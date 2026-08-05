@@ -15,6 +15,7 @@ summary: 您可以使用刪除KeyServerKmip方法刪除現有的金鑰管理互�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,12 +38,14 @@ KeyServerID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。如果沒有錯誤、刪除作業就會被視為成功。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -59,6 +62,7 @@ KeyServerID
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -73,6 +77,7 @@ KeyServerID
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 11.7

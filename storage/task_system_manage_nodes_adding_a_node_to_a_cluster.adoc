@@ -47,6 +47,7 @@ https://www.youtube.com/embed/2smVHWkikXY?rel=0["NetApp影片：根據您的需�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:concept_system_manage_nodes_node_versioning_and_compatibility.adoc[節點版本管理與相容性]

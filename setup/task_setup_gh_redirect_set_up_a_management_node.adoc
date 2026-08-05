@@ -22,6 +22,7 @@ NOTE: 若要設定 Active IQ 、請使用 `--telemetry_active`設定指令碼中
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

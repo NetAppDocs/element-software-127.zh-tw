@@ -15,6 +15,7 @@ summary: 您可以使用RekeySoftwareEncryptionAtRestMasterKey方法重新輸入
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數。如果未指定參數、則 `keyManagementType`會使用現有的金鑰管理組態來執行重新輸入作業。如果已指定且金鑰提供者為外部、 `keyProviderID`則 `keyManagementType`也必須使用參數。
@@ -33,6 +34,7 @@ summary: 您可以使用RekeySoftwareEncryptionAtRestMasterKey方法重新輸入
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -46,6 +48,7 @@ summary: 您可以使用RekeySoftwareEncryptionAtRestMasterKey方法重新輸入
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -62,6 +65,7 @@ summary: 您可以使用RekeySoftwareEncryptionAtRestMasterKey方法重新輸入
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -74,6 +78,7 @@ summary: 您可以使用RekeySoftwareEncryptionAtRestMasterKey方法重新輸入
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 12.3

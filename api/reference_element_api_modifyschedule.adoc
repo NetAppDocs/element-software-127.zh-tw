@@ -15,6 +15,7 @@ summary: 您可以使用Modify排 程來變更排程快照發生的時間間隔�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -273,6 +274,7 @@ ISO 8601日期字串
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -293,6 +295,7 @@ xref:reference_element_api_schedule.adoc[排程]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 [listing]
@@ -308,6 +311,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 [listing]
@@ -348,6 +352,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

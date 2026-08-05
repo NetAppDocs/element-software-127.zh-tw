@@ -15,6 +15,7 @@ summary: 您可以使用刪除KeyProviderKmip方法刪除指定的非作用中�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,12 +38,14 @@ KeyProviderID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。只要沒有錯誤、刪除作業就會被視為成功。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -59,6 +62,7 @@ KeyProviderID
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -73,6 +77,7 @@ KeyProviderID
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 11.7

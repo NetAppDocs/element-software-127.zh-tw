@@ -15,12 +15,14 @@ summary: 您可以使用ListActiveNode方法傳回叢集中目前作用中節點
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -39,6 +41,7 @@ xref:reference_element_api_node.adoc[節點]陣列
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -53,18 +56,21 @@ xref:reference_element_api_node.adoc[節點]陣列
 ----
 
 
+[[response-example]]
 == 回應範例
 
 由於此回應範例的長度很長、因此會在補充主題中予以記錄。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_response_example_listactivenodes.adoc[ListActiveNode]

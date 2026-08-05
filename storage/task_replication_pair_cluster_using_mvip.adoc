@@ -29,6 +29,7 @@ summary: 您可以使用一個叢集的MVIP與另一個叢集建立連線、配�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_replication_pair_cluster_using_pairing_key.adoc[使用配對金鑰配對叢集]

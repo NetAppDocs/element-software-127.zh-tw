@@ -52,6 +52,7 @@ https://<ManagementNodeIP>
 
 
 
+[[update-management-services-using-hybrid-cloud-control]]
 == 使用混合雲控制更新管理服務
 
 您可以使用NetApp混合式雲端控制來更新NetApp管理服務。
@@ -96,6 +97,7 @@ https://<ManagementNodeIP>
 
 
 
+[[update-management-services-using-the-management-node-api]]
 == 使用管理節點API更新管理服務
 
 使用者最好能從NetApp混合雲控制系統執行管理服務更新。不過、您可以使用REST API、將管理服務的服務套件更新手動上傳、擷取及部署至管理節點。您可以從管理節點的REST API UI執行每個命令。

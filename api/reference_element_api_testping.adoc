@@ -15,6 +15,7 @@ summary: 您可以使用TestPing方法、使用ICMP封包、在1G和10G介面上
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -158,6 +159,7 @@ sourceAddressV6
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -178,6 +180,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -195,6 +198,7 @@ Json物件
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -240,6 +244,7 @@ Json物件
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 5.0

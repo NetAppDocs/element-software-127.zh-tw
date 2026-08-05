@@ -36,6 +36,7 @@ NOTE: 如果您未依序更新管理服務、接著更新元素儲存設備、�
 
 
 
+[[upgrade-a-management-node-to-version-12-5-or-later-from-version-12-3-x-or-later]]
 == 將管理節點從12.3.x版或更新版本升級至12.5版或更新版本
 
 您可以在不需要佈建新管理節點虛擬機器的情況下、將管理節點從12.3.x或更新版本就地升級至12.5或更新版本。
@@ -129,6 +130,7 @@ IMPORTANT: 如果您先前已停用管理節點上的 SSH 功能、則需要link
 
 
 
+[[reconfigure-authentication-using-the-management-node-rest-api]]
 == 使用管理節點REST API重新設定驗證
 
 如果您已依序升級（1）管理服務和（2）元素儲存設備、則可以保留現有的管理節點。如果您已依照不同的升級順序執行、請參閱就地管理節點升級程序。

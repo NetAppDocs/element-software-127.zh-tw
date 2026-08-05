@@ -15,6 +15,7 @@ summary: 您可以使用AddVolumesToVolume存取群組方法、將磁碟區新�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -50,6 +51,7 @@ Volume存取群組的Volume存取群組ID、用於新增磁碟區。
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -70,6 +72,7 @@ xref:reference_element_api_volumeaccessgroup.adoc[Volume存取群組]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -87,6 +90,7 @@ xref:reference_element_api_volumeaccessgroup.adoc[Volume存取群組]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -121,6 +125,7 @@ xref:reference_element_api_volumeaccessgroup.adoc[Volume存取群組]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

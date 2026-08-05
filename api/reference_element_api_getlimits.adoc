@@ -18,18 +18,21 @@ NOTE: 無論用於傳遞方法的 API 端點版本為何、此 `GetLimits`方法
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法會傳回含有API限制之名稱值配對的Json物件。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -43,6 +46,7 @@ NOTE: 無論用於傳遞方法的 API 端點版本為何、此 `GetLimits`方法
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -118,6 +122,7 @@ NOTE: 無論用於傳遞方法的 API 端點版本為何、此 `GetLimits`方法
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

@@ -33,7 +33,7 @@ summary: 瞭解如何為您的環境設定儲存系統。
 
 
 ** xref:task_setup_determine_which_solidfire_components_to_install.adoc[判斷SolidFire 要安裝哪些元件]
-** xref:/task_setup_gh_redirect_set_up_a_management_node.adoc[設定管理節點]
+** xref:task_setup_gh_redirect_set_up_a_management_node.adoc[設定管理節點]
 ** xref:concept_setup_whats_next.adoc[接下來呢？]
 
 
@@ -41,6 +41,7 @@ summary: 瞭解如何為您的環境設定儲存系統。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://www.netapp.com/data-storage/solidfire/["支援All Flash儲存設備總覽SolidFire"^]

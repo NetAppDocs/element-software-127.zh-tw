@@ -15,6 +15,7 @@ ontapVersionInfo物件包含ONTAP SnapMirror關係中有關API版本的物件。
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

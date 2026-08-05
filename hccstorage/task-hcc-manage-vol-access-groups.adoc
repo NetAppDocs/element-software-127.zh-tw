@@ -24,6 +24,7 @@ keywords: netapp, element, cluster, volume, access
 
 
 
+[[add-a-volume-access-group]]
 == 新增Volume存取群組
 
 您可以使用NetApp混合雲控制、將Volume存取群組新增至儲存叢集。
@@ -45,6 +46,7 @@ keywords: netapp, element, cluster, volume, access
 
 
 
+[[edit-a-volume-access-group]]
 == 編輯Volume存取群組
 
 您可以使用NetApp混合雲控制來編輯現有Volume存取群組的內容。您可以變更存取群組的名稱、相關聯的啟動器或相關聯的磁碟區。
@@ -63,6 +65,7 @@ keywords: netapp, element, cluster, volume, access
 
 
 
+[[delete-a-volume-access-group]]
 == 刪除Volume存取群組
 
 您可以使用NetApp混合雲控制移除Volume存取群組、同時從系統中移除與此存取群組相關的啟動器。

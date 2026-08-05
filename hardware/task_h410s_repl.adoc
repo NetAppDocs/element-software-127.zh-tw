@@ -39,6 +39,7 @@ image::hci_stor_node_ssd_bays.gif[顯示與H410S節點的四節點機箱中每�
 
 
 
+[[prepare-to-replace-the-node]]
 == 準備更換節點
 
 在安裝替換節點之前、您應該在NetApp Element 叢集中正確移除故障的儲存節點。您可以在不造成任何服務中斷的情況下執行此操作。您應該從Element UI取得故障儲存節點的序號、並將其與節點背面貼紙上的序號配對。
@@ -81,6 +82,7 @@ image::hci_stor_node_ssd_bays.gif[顯示與H410S節點的四節點機箱中每�
 
 
 
+[[replace-the-node-in-the-chassis]]
 == 更換機箱中的節點
 
 使用NetApp Element 完故障節點之後、您可以使用支援功能的UI從叢集移除故障節點、以便從機箱中實際移除節點。您應該將替換節點安裝在機箱的同一個插槽中、以便從其中移除故障節點。
@@ -203,6 +205,7 @@ TIP: 請確定替換節點的纜線方式與機箱中的其他節點相同。
 
 
 
+[[add-the-node-to-the-cluster]]
 == 將節點新增至叢集
 
 當您將節點新增至叢集或在現有節點中安裝新磁碟機時、磁碟機會自動登錄為可用。您必須先使用元素UI或API將磁碟機新增至叢集、才能參與叢集。
@@ -238,6 +241,7 @@ NOTE: 如果您要新增的節點與叢集上執行的版本不同、叢集會�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

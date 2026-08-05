@@ -27,6 +27,7 @@ summary: 如果磁碟機故障、或磁碟機磨損程度低於臨界值、您�
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == 新增和移除磁碟機的最佳實務做法
 
 * 新增所有區塊磁碟機、並在新增磁碟機之前、確保區塊同步已完成。
@@ -115,6 +116,7 @@ NOTE: 當您在現有節點中安裝新磁碟機時、磁碟機會自動在元�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

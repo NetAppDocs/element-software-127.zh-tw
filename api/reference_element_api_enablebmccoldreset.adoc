@@ -15,6 +15,7 @@ summary: 您可以使用啟用Bmc/Cold重 設方法、針對叢集中的所有�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,6 +38,7 @@ BMC重設作業之間的時間（以分鐘為單位）。
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -55,6 +57,7 @@ cBMCResetDationMinutes
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -71,6 +74,7 @@ cBMCResetDationMinutes
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -86,6 +90,7 @@ cBMCResetDationMinutes
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 12.0

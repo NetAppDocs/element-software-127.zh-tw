@@ -23,6 +23,7 @@ keywords: netapp, management node ui, mnode ui, network settings, test network, 
 
 
 
+[[update-management-node-network-settings]]
 == 更新管理節點網路設定
 
 在每節點管理節點UI的「網路設定」索引標籤上、您可以修改管理節點網路介面欄位。
@@ -66,6 +67,7 @@ IMPORTANT: 11.3或更新版本的管理節點不支援IPv6選項。
 
 
 
+[[update-management-node-cluster-settings]]
 == 更新管理節點叢集設定
 
 在管理節點的每節點UI的叢集設定索引標籤上、當節點處於「可用」、「擱置」、「彭定作用中」和「作用中」狀態時、您可以修改叢集介面欄位。
@@ -83,6 +85,7 @@ IMPORTANT: 11.3或更新版本的管理節點不支援IPv6選項。
 
 
 
+[[test-the-management-node-settings]]
 == 測試管理節點設定
 
 變更管理節點的管理和網路設定並提交變更之後、您可以執行測試來驗證所做的變更。

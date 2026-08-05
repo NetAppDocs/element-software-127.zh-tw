@@ -15,18 +15,21 @@ summary: 您可以使用ResetNetwork Config方法來協助解決個別節點的�
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-value]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -41,12 +44,14 @@ summary: 您可以使用ResetNetwork Config方法來協助解決個別節點的�
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法不會傳回回應。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 11.0

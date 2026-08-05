@@ -15,6 +15,7 @@ snapMirrorVolume物件包含ONTAP 有關某個不全區的資訊。
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

@@ -25,6 +25,7 @@ https://activeiq.solidfire.com["SolidFire Active IQ"^]是一種網路型工具�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

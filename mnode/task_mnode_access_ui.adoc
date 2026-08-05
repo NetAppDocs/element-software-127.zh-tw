@@ -24,6 +24,7 @@ keywords: netapp, mnode, management node, api, Element
 
 
 
+[[access-the-management-node-per-node-ui]]
 == 存取每節點UI的管理節點
 
 您可以從每個節點的UI存取網路和叢集設定、並使用系統測試和公用程式。
@@ -43,6 +44,7 @@ image::mnode_per_node_442_ui.png[每節點UI的管理節點]
 
 
 
+[[access-the-management-node-rest-api-ui]]
 == 存取管理節點REST API UI
 
 您可以從REST API UI存取服務相關API功能表、以控制管理節點上的管理服務。

@@ -15,6 +15,7 @@ summary: 您可以使用ModifyQoSPolicy方法來修改系統上現有的QoS原�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -65,6 +66,7 @@ QoS物件
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -85,6 +87,7 @@ xref:reference_element_api_qospolicy.adoc[QoSPolicy]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -106,6 +109,7 @@ xref:reference_element_api_qospolicy.adoc[QoSPolicy]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -144,6 +148,7 @@ xref:reference_element_api_qospolicy.adoc[QoSPolicy]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.0

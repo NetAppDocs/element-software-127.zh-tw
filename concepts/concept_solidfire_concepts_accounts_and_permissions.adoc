@@ -22,6 +22,7 @@ summary: 若要管理及提供系統上儲存資源的存取權限、您必須�
 
 
 
+[[storage-cluster-administrator-accounts]]
 == 儲存叢集管理員帳戶
 
 執行NetApp Element 此軟件的儲存叢集中、可存在兩種類型的系統管理員帳戶：
@@ -37,6 +38,7 @@ NOTE: 需要本機（非LDAP）叢集管理員帳戶、才能透過每節點UI�
 
 
 
+[[user-accounts]]
 == 使用者帳戶
 
 使用者帳戶可用來控制NetApp Element 對以軟體為基礎之網路上儲存資源的存取。在建立磁碟區之前、至少需要一個使用者帳戶。
@@ -52,6 +54,7 @@ NOTE: 需要本機（非LDAP）叢集管理員帳戶、才能透過每節點UI�
 
 
 
+[[authoritative-cluster-user-accounts]]
 == 驗證叢集使用者帳戶
 
 授權叢集使用者帳戶可針對與NetApp混合雲控制節點和叢集執行個體相關的任何儲存資產進行驗證。有了這個帳戶、您就能跨所有叢集管理磁碟區、帳戶、存取群組等。
@@ -70,6 +73,7 @@ link:../concepts/concept_intro_clusters.html#authoritative-storage-clusters["授
 
 
 
+[[volume-accounts]]
 == Volume帳戶
 
 Volume專屬帳戶僅適用於建立帳戶的儲存叢集。這些帳戶可讓您在網路上的特定磁碟區上設定權限、但在這些磁碟區之外並無任何影響。

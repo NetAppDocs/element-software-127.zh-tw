@@ -15,6 +15,7 @@ summary: 您可以使用GetDriveStats方法來取得單一磁碟機的高層活�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,6 +38,7 @@ DriveID
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -55,6 +57,7 @@ xref:reference_element_api_drivestats.adoc[磁碟統計資料]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -71,6 +74,7 @@ xref:reference_element_api_drivestats.adoc[磁碟統計資料]
 ----
 
 
+[[response-example-block-drive]]
 == 回應範例（區塊磁碟機）
 
 此方法會傳回類似下列區塊磁碟機範例的回應：
@@ -103,6 +107,7 @@ xref:reference_element_api_drivestats.adoc[磁碟統計資料]
 ----
 
 
+[[response-example-volume-metadata-drive]]
 == 回應範例（Volume中繼資料磁碟機）
 
 此方法會傳回類似下列Volume中繼資料磁碟機範例的回應：
@@ -136,12 +141,14 @@ xref:reference_element_api_drivestats.adoc[磁碟統計資料]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listdrives.adoc[清單磁碟機]

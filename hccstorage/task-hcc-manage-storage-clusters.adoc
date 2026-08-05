@@ -35,6 +35,7 @@ keywords: netapp, element, storage cluster, hybrid cloud control, hcc, maintenan
 
 
 
+[[add-a-storage-cluster]]
 == 新增儲存叢集
 
 您可以使用NetApp混合雲控制、將儲存叢集新增至管理節點資產庫存。這可讓您使用HCCUI來管理及監控叢集。
@@ -63,6 +64,7 @@ NOTE: 新增儲存叢集之後、叢集資源清冊可能需要2分鐘的時間�
 
 
 
+[[confirm-storage-cluster-status]]
 == 確認儲存叢集狀態
 
 您可以使用NetApp混合雲控制UI來監控儲存叢集資產的連線狀態。
@@ -76,6 +78,7 @@ NOTE: 新增儲存叢集之後、叢集資源清冊可能需要2分鐘的時間�
 
 
 
+[[edit-storage-cluster-credentials]]
 == 編輯儲存叢集認證資料
 
 您可以使用NetApp混合雲控制UI來編輯儲存叢集的系統管理員使用者名稱和密碼。
@@ -91,6 +94,7 @@ NOTE: 新增儲存叢集之後、叢集資源清冊可能需要2分鐘的時間�
 
 
 
+[[remove-a-storage-cluster]]
 == 移除儲存叢集
 
 從NetApp混合雲控制移除儲存叢集、可從管理節點庫存中移除叢集。移除儲存叢集後、叢集將無法再由HCC管理、您只能直接瀏覽至其管理IP位址來存取叢集。
@@ -112,6 +116,7 @@ CAUTION: 選取「*是*」下一步、會從安裝中移除叢集。
 
 
 
+[[enable-and-disable-maintenance-mode]]
 == 啟用和停用維護模式
 
 如果您需要將儲存節點離線以進行軟體升級或主機修復等維護、您可以透過該節點的維護模式、將 I/O 對儲存叢集其餘部分的影響降至最低<<enable_main_mode,啟用>>。當您使用維護模式時<<disable_main_mode,停用>>、會監控節點、確保在節點移轉至維護模式之前、符合特定條件。
@@ -125,6 +130,7 @@ CAUTION: 選取「*是*」下一步、會從安裝中移除叢集。
 
 
 
+[[enablemainmodeenable-maintenance-mode]]
 === [[ene_main_mode]]啟用維護模式
 
 您可以使用下列程序來啟用儲存叢集節點的維護模式。
@@ -170,6 +176,7 @@ image:hcc_enable_maintenance_mode.PNG["啟用維護模式"]
 
 
 
+[[disablemainmodedisable-maintenance-mode]]
 === [[disable_main_mode]停用維護模式
 
 在節點成功置於維護模式之後、此節點可使用*停用維護模式*動作。其他節點上的動作將無法使用、直到正在進行維護的節點上成功停用維護模式為止。
@@ -190,6 +197,7 @@ NOTE: 當節點處於維護模式時、它不會接受新資料。因此、停�
 
 
 
+[[troubleshoot]]
 === 疑難排解
 
 如果您在啟用或停用維護模式時遇到錯誤、節點表格頂端會顯示橫幅錯誤。如需錯誤的詳細資訊、您可以選取橫幅上提供的*顯示詳細資料*連結、以顯示API傳回的內容。

@@ -15,6 +15,7 @@ summary: Element Web UI使用刪除SnapMirrorEndpoints從系統中刪除一或�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,12 +38,14 @@ snapMirrorEndpointID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.0

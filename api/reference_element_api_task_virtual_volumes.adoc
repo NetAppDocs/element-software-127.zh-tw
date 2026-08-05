@@ -15,6 +15,7 @@ summary: 工作物件包含系統中目前執行中或已完成之虛擬Volume�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -133,6 +134,7 @@ UUID
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listvirtualvolumetasks.adoc[listVirtualVolume工作]

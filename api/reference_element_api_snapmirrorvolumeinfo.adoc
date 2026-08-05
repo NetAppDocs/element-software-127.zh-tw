@@ -15,6 +15,7 @@ SnapMirrorVolume Info物件包含SnapMirror關係中磁碟區位置的相關資�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

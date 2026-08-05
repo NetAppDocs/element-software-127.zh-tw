@@ -15,6 +15,7 @@ clusterInfo物件包含節點用來與叢集通訊的資訊。您可以使用Get
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

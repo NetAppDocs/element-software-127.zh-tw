@@ -14,7 +14,11 @@ summary: 可用的元素API方法會因您設定的存取類型而異。
 可用的元素API方法會因您設定的存取類型而異。
 
 
+NOTE: 透過 API 可使用某些在 Element UI 中無法使用的存取類型。
 
+
+
+[[accounts]]
 == 帳戶
 
 帳戶存取類型可使用下列方法：
@@ -58,12 +62,14 @@ GetAccountEfficiency
 |===
 
 
+[[administrator]]
 == 系統管理員
 
 系統管理員存取類型可使用所有方法。
 
 
 
+[[clusteradmin]]
 == 叢集管理
 
 叢集管理存取類型可使用下列方法：
@@ -461,6 +467,7 @@ GetVirtualNetwork
 |===
 
 
+[[drives]]
 == 磁碟機
 
 磁碟機存取類型可使用下列方法：
@@ -489,6 +496,7 @@ SecureEraseDrives
 |===
 
 
+[[nodes]]
 == 節點
 
 節點存取類型可使用下列方法：
@@ -517,6 +525,7 @@ ListActiveNode
 |===
 
 
+[[read]]
 == 讀取
 
 讀取存取類型可使用下列方法：
@@ -660,6 +669,7 @@ listVolumesForAccount
 |===
 
 
+[[reporting]]
 == 報告
 
 報告存取類型可使用下列方法：
@@ -818,12 +828,14 @@ listVolume狀態ByVolume存取群組
 |===
 
 
+[[repositories]]
 == 儲存庫
 
 清單所有節點方法可用於儲存庫存取類型。
 
 
 
+[[volumes]]
 == 磁碟區
 
 磁碟區存取類型可使用下列方法：
@@ -997,6 +1009,7 @@ StartVolume配對
 |===
 
 
+[[write]]
 == 寫入
 
 寫入存取類型可使用下列方法：
@@ -1108,3 +1121,5 @@ Get非 同步結果
 遠端磁碟機
 
 |===
+.相關資訊
+link:../storage/concept_system_manage_manage_cluster_administrator_users.html#view-cluster-admin-details["了解 Element UI 中可用的存取類型"]

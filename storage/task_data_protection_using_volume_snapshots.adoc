@@ -21,6 +21,7 @@ Volume Snapshot是Volume的時間點複本。如果您需要將磁碟區復原�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_data_protection_use_individual_volume_snapshots.adoc[使用個別Volume快照來保護資料]

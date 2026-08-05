@@ -28,6 +28,7 @@ NOTE: 從Element 11.0版開始、節點可設定為使用IPv4、IPv6或兩者的
 
 
 
+[[configure-a-storage-node-using-the-per-node-ui]]
 == 使用每節點UI來設定儲存節點
 
 您可以使用每個節點的使用者介面來設定節點。
@@ -66,6 +67,7 @@ IMPORTANT: 必須先將此名稱新增至所有節點的組態、才能建立叢
 
 
 
+[[configure-a-storage-node-using-the-tui]]
 == 使用TUI設定儲存節點
 
 您可以使用終端使用者介面（TUI）來執行新節點的初始組態。
@@ -99,6 +101,7 @@ TIP: 若要瀏覽功能表、請按下向上或向下箭頭鍵。若要移至其
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

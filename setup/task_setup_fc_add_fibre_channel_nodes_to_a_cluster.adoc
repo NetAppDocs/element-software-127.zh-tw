@@ -36,6 +36,7 @@ NOTE: 如果您要新增的節點的元素版本與叢集上執行的版本不�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

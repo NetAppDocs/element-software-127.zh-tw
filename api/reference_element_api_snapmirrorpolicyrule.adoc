@@ -15,6 +15,7 @@ SnapMirrorPolicyRule物件包含SnapMirror原則中規則的相關資訊。
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

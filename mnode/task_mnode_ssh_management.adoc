@@ -43,6 +43,7 @@ keywords: netapp, mnode, management node, ssh, disable, enable, rest api, hybrid
 
 
 
+[[disable-or-enable-the-ssh-capability-on-the-management-node-using-netapp-hybrid-cloud-control-ui]]
 == 使用NetApp混合雲控制UI在管理節點上停用或啟用SSH功能
 
 您可以在管理節點上停用或重新啟用SSH功能。在執行管理服務 2.18 或更新版本的管理節點上、預設會停用提供的 SSH 功能link:task_mnode_enable_remote_support_connections.html["NetApp支援遠端支援通道（RST）工作階段存取"]。停用SSH不會終止或中斷現有SSH用戶端工作階段與管理節點的連線。如果您停用SSH並選擇稍後重新啟用、則可以使用NetApp混合雲控制UI來執行此作業。
@@ -58,6 +59,7 @@ NOTE: 若要啟用或停用儲存叢集使用 SSH 的支援存取link:../storage
 
 
 
+[[disable-or-enable-the-ssh-capability-on-the-management-node-using-apis]]
 == 使用API在管理節點上停用或啟用SSH功能
 
 您可以在管理節點上停用或重新啟用SSH功能。在執行管理服務 2.18 或更新版本的管理節點上、預設會停用提供的 SSH 功能link:task_mnode_enable_remote_support_connections.html["NetApp支援遠端支援通道（RST）工作階段存取"]。停用SSH不會終止或中斷現有SSH用戶端工作階段與管理節點的連線。如果停用SSH並選擇稍後重新啟用、您可以使用相同的API來執行此作業。
@@ -104,6 +106,7 @@ https://<ManagementNodeIP>/mnode/
 
 
 
+[[determine-status-of-the-ssh-capability-on-the-management-node-using-apis]]
 == 使用API判斷管理節點上SSH功能的狀態
 
 您可以使用管理節點服務API、判斷管理節點上是否已啟用SSH功能。在執行管理服務2.18或更新版本的管理節點上、SSH預設為停用。

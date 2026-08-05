@@ -15,12 +15,14 @@ summary: 您可以使用組態API方法來取得節點的所有組態資訊。�
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -43,6 +45,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -57,18 +60,21 @@ Json物件
 ----
 
 
+[[response-example]]
 == 回應範例
 
 由於此回應範例的長度很長、因此會在補充主題中予以記錄。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_getclusterconfig.adoc[GetClusterConfig]

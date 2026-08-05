@@ -28,6 +28,7 @@ NOTE: 叢集配對需要在管理網路上的節點之間建立完整連線。�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_prereq_network_port_requirements.adoc[網路連接埠需求]

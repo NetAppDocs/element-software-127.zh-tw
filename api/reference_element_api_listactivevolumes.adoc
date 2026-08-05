@@ -15,6 +15,7 @@ summary: 您可以使用ListActiveVolumes方法取得系統中目前作用中磁
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -63,6 +64,7 @@ startVolume ID
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -83,6 +85,7 @@ xref:reference_element_api_volume.adoc[Volume]陣列
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -100,12 +103,14 @@ xref:reference_element_api_volume.adoc[Volume]陣列
 ----
 
 
+[[response-example]]
 == 回應範例
 
 由於此回應範例的長度很長、因此會在補充主題中予以記錄。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

@@ -15,6 +15,7 @@ summary: 您可以使用清單啟動器方法取得啟動器IQN或全球連接�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -63,6 +64,7 @@ startInitiator ID
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -83,6 +85,7 @@ xref:reference_element_api_initiator.adoc[啟動器]陣列
 |===
 
 
+[[exceptions]]
 == 例外情況
 
 此方法可能有下列例外狀況：
@@ -101,6 +104,7 @@ xInvalidParerm
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -115,6 +119,7 @@ xInvalidParerm
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -140,6 +145,7 @@ xInvalidParerm
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

@@ -15,6 +15,7 @@ summary: 您可以使用SetLldpConfig方法來設定儲存叢集的連結層探�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -63,6 +64,7 @@ enableLldp
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -81,6 +83,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -99,6 +102,7 @@ Json物件
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：

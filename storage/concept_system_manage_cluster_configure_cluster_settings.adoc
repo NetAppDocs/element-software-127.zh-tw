@@ -33,6 +33,7 @@ summary: 您可以從元素UI的「叢集」索引標籤檢視及變更整個叢
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

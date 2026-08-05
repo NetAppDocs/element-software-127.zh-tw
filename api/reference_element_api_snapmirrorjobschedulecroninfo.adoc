@@ -15,6 +15,7 @@ snapMirrorJobScheduleCronInfo物件包含ONTAP 有關在支援系統上執行cro
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

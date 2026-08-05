@@ -15,6 +15,7 @@ summary: 您可以透過多種方式來管理磁碟區關係、例如暫停複�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_replication_pause_replication.adoc[暫停複寫]

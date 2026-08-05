@@ -15,6 +15,7 @@ summary: 每個節點都包含一或多個實體磁碟機、用於儲存叢集�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

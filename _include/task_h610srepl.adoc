@@ -12,6 +12,7 @@ TIP: H610S是單一機架單元（1U）機箱、因此「節點」和「機箱�
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == 新增和移除磁碟機的最佳實務做法
 
 您應該遵循下列最佳實務做法、將磁碟機新增至叢集：
@@ -70,6 +71,7 @@ NOTE: 如果交換器無法辨識纜線、請參閱交換器廠商的文件。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

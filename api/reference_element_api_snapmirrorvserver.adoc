@@ -15,6 +15,7 @@ snapMirrorVserver物件包含有關目的地ONTAP 叢集上儲存虛擬機器（
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

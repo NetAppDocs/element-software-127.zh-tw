@@ -15,6 +15,7 @@ summary: 您可以使用TestNetwork Config方法來測試已設定的網路設�
 
 
 
+[[parameters]]
 == 參數
 
 使用SetNetworkConfig方法設定節點時、會在UI或TUI中驗證並儲存組態。TestNetwork Config API測試使用已儲存的組態來進行驗證後邏輯。例如、當停電或網路故障時、您可以使用此API方法來確保節點執行的是目前儲存最新的網路組態。這會驗證組態中沒有錯誤、而且目前的組態正在使用中。
@@ -25,6 +26,7 @@ summary: 您可以使用TestNetwork Config方法來測試已設定的網路設�
 
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -43,6 +45,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -57,6 +60,7 @@ Json物件
 ----
 
 
+[[response-example-1]]
 == 回應範例1.
 
 如果未偵測到錯誤、則不會傳回任何回應。
@@ -76,6 +80,7 @@ Json物件
 ----
 
 
+[[response-example-2]]
 == 回應範例2.
 
 MTU不符範例。
@@ -100,6 +105,7 @@ MTU不符範例。
 ----
 
 
+[[response-example-3]]
 == 回應範例3.
 
 遺失靜態路由的範例。
@@ -124,12 +130,14 @@ MTU不符範例。
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_setnetworkconfig.adoc[設定網路組態]

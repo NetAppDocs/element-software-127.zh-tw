@@ -15,12 +15,14 @@ summary: 您可以使用GetDriveConfig方法取得磁碟機資訊、以取得預
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -39,6 +41,7 @@ xref:reference_element_api_drive.adoc[磁碟機]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -53,6 +56,7 @@ xref:reference_element_api_drive.adoc[磁碟機]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法的回應類似於下列範例。由於長度限制、回應僅包含一個儲存節點之一磁碟機的資訊。

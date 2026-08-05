@@ -76,6 +76,7 @@ NOTE: 上圖為範例。SF9608具有不同的磁碟機配置、其中僅包含�
 
 
 
+[[remove-the-drive-from-the-cluster]]
 == 從叢集移除磁碟機
 
 如果磁碟機的自我診斷顯示節點故障、或是與磁碟機的通訊停止五分鐘半或更長時間、則該系統會將磁碟機置於故障狀態。SolidFire系統會顯示故障磁碟機的清單。您應該從NetApp Element 故障磁碟機清單中移除故障磁碟機、以供使用。
@@ -115,6 +116,7 @@ NOTE: 上圖為範例。SF9608具有不同的磁碟機配置、其中僅包含�
 
 
 
+[[replace-the-drive-from-the-chassis]]
 == 從機箱中裝回磁碟機
 
 從元素UI的故障磁碟機清單中移除故障磁碟機之後、您就可以從機箱實際更換故障磁碟機。
@@ -158,6 +160,7 @@ NetApp支援部門將提供退回故障磁碟機的指示。
 
 
 
+[[add-the-drive-to-the-cluster]]
 == 將磁碟機新增至叢集
 
 在機箱中安裝新磁碟機之後、它會登錄為「可用」。您應該先使用元素UI將磁碟機新增至叢集、然後才能加入叢集。
@@ -193,6 +196,7 @@ NetApp支援部門將提供退回故障磁碟機的指示。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

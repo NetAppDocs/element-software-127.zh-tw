@@ -28,6 +28,7 @@ ssh -i <identity_file> sfreadonly@<node_ip>
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -79,6 +80,7 @@ sfadmin
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -130,6 +132,7 @@ NOTE: 當您將 public_key 參數傳遞至 API 方法時、回應中只 `signed_
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -147,6 +150,7 @@ NOTE: 當您將 public_key 參數傳遞至 API 方法時、回應中只 `signed_
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -167,6 +171,7 @@ NOTE: 當您將 public_key 參數傳遞至 API 方法時、回應中只 `signed_
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 12.5

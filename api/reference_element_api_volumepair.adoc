@@ -15,6 +15,7 @@ volumePair物件包含與不同叢集上其他Volume配對的Volume相關資訊�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -92,6 +93,7 @@ Volume PairUUID
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_listactivepairedvolumes.adoc[listActivePaedVolumes]

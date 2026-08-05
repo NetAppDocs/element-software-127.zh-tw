@@ -27,6 +27,7 @@ NOTE: Volume配對金鑰包含加密版本的Volume資訊、可能包含敏感�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_replication_pair_volumes_using_a_volume_id.adoc[使用Volume ID配對磁碟區]

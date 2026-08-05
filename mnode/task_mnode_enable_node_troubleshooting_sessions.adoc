@@ -48,6 +48,7 @@ WARNING: 除非NetApp支援部門告知、否則不支援對此系統的任何�
 
 
 
+[[troubleshoot-a-cluster-node]]
 == 疑難排解叢集節點
 
 您可以使用sfreadonly系統帳戶執行基本疑難排解：
@@ -116,6 +117,7 @@ NOTE: 如果您未停用SSH、則會在管理節點上保持啟用狀態。啟�
 
 
 
+[[troubleshoot-a-cluster-node-with-netapp-support]]
 == 使用NetApp支援疑難排解叢集節點
 
 NetApp支援中心可利用系統帳戶執行進階疑難排解、讓技術人員執行更深入的元素診斷。
@@ -213,6 +215,7 @@ NOTE: 如果您未停用SSH、則會在管理節點上保持啟用狀態。啟�
 
 
 
+[[troubleshoot-a-node-that-is-not-part-of-cluster]]
 == 疑難排解非叢集一部分的節點
 
 您可以對尚未新增至叢集的節點執行基本疑難排解。無論是否獲得NetApp支援、您都可以將sfreadonly系統帳戶用於此用途。如果已設定管理節點、您可以將其用於SSH、並執行此工作所提供的指令碼。

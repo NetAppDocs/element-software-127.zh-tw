@@ -15,6 +15,7 @@ protectionDomain Level物件包含儲存叢集目前的容錯度和恢復層級�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

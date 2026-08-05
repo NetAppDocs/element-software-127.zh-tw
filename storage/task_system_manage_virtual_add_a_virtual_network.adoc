@@ -48,6 +48,7 @@ IMPORTANT: 您必須針對此組態考量下列條件：
 
 
 
+[[view-virtual-network-details]]
 == 檢視虛擬網路詳細資料
 
 .步驟

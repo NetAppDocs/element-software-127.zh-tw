@@ -15,6 +15,7 @@ summary: 故障物件包含叢集中偵測到的故障相關資訊。ListCluster
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -180,6 +181,7 @@ ISO 8601字串
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_listclusterfaults.adoc[listClusterFaults]

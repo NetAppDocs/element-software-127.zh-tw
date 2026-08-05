@@ -15,6 +15,7 @@ summary: 暫掛ActiveNode物件包含目前處於暫掛作用中狀態之節點�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -135,6 +136,7 @@ Sip
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listpendingactivenodes.adoc[ListPendingActiveNode]

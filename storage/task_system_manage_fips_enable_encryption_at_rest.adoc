@@ -19,6 +19,7 @@ summary: 您可以在閒置時啟用和停用全叢集加密。此功能預設�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.adoc[啟用及停用叢集的加密]

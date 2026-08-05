@@ -36,6 +36,7 @@ NOTE: 您可以稍後新增或刪除啟動器。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

@@ -15,6 +15,7 @@ summary: 當您使用NetApp Element 支援功能時、資料會受到業界標�
 
 
 
+[[encryption-at-rest-hardware]]
 == 閒置加密（硬體）
 
 儲存節點中的所有磁碟機都能在磁碟機層級使用AES 256位元加密進行加密。每個磁碟機都有自己的加密金鑰、這是在磁碟機初次初始化時建立的。啟用加密功能時、會建立全叢集的密碼、然後將密碼區塊散佈到叢集中的所有節點。沒有單一節點儲存整個密碼。然後使用密碼來保護所有磁碟機的存取權。需要密碼才能解除磁碟機鎖定、除非從磁碟機上拔下電源或磁碟機已鎖定、否則不需要密碼。
@@ -23,6 +24,7 @@ link:../storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_c
 
 
 
+[[encryption-at-rest-software]]
 == 閒置加密（軟體）
 
 另一種閒置加密的軟體閒置加密功能、可將寫入儲存叢集中SSD的所有資料加密。link:../storage/task_system_manage_cluster_enable_and_disable_encryption_for_a_cluster.html["啟用時"^]，它會加密所有寫入的資料，並將軟體中自動讀取的所有資料解密。靜態軟體加密可鏡射硬體中的自我加密磁碟（SED）實作、在沒有SED的情況下提供資料安全性。
@@ -34,6 +36,7 @@ WARNING: 對於支援所有Flash的儲存叢集、在建立叢集期間必須啟
 
 
 
+[[external-key-management]]
 == 外部金鑰管理
 
 您可以將Element軟體設定為使用協力廠商的KMIP相容金鑰管理服務（KMS）來管理儲存叢集加密金鑰。啟用此功能時、儲存叢集的整個叢集磁碟機存取密碼加密金鑰會由您指定的KMS管理。
@@ -51,6 +54,7 @@ Element可使用下列主要管理服務：
 
 
 
+[[multi-factor-authentication]]
 == 多因素驗證
 
 多因素驗證（MFA）可讓您要求使用者在NetApp Element 登入時出示多種證據、以便透過該Web UI或儲存節點UI進行驗證。您可以將元素設定為僅接受多因素驗證、以便與現有的使用者管理系統和身分識別供應商整合、以進行登入。您可以將元素設定為與現有的SAML 2.0身分識別供應商整合、以便強制執行多種驗證配置、例如密碼與文字訊息、密碼與電子郵件訊息、或其他方法。
@@ -61,6 +65,7 @@ Element可使用下列主要管理服務：
 
 
 
+[[fips-140-2-for-https-and-data-at-rest-encryption]]
 == FIPS 140-2適用於HTTPS和靜止資料加密
 
 NetApp SolidFire 支援符合聯邦資訊處理標準（FIPS）140-2密碼編譯模組要求的加密。您可以在SolidFire 您的支援HTTPS通訊和磁碟機加密的情況下、在您的支援叢集上啟用FIPS 140-2法規遵循。
@@ -73,6 +78,7 @@ NetApp SolidFire 支援符合聯邦資訊處理標準（FIPS）140-2密碼編譯
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

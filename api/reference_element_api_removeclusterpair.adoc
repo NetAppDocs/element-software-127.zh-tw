@@ -15,6 +15,7 @@ summary: 您可以使用RemoveClusterPaair方法來關閉兩個配對叢集之�
 
 
 
+[[parameter]]
 == 參數
 
 
@@ -40,12 +41,14 @@ NOTE: 在移除叢集配對之前、您必須先使用RemoveVolume Pair API方�
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -62,6 +65,7 @@ NOTE: 在移除叢集配對之前、您必須先使用RemoveVolume Pair API方�
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -75,6 +79,7 @@ NOTE: 在移除叢集配對之前、您必須先使用RemoveVolume Pair API方�
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

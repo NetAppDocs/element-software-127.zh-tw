@@ -15,6 +15,7 @@ summary: 您可以使用GetIpmiConfig方法、從節點中的感應器擷取硬�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,6 +38,7 @@ ChassetType
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -64,6 +66,7 @@ sensorName
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -80,6 +83,7 @@ sensorName
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -238,6 +242,7 @@ sensorName
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

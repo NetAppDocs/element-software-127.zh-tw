@@ -15,6 +15,7 @@ KeyServerKmip物件說明金鑰管理互通性傳輸協定（KMIP）金鑰伺服
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

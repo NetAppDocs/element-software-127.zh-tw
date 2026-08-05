@@ -61,6 +61,7 @@ image::../media/element_new_cluster_admin.jpg[Element新叢集管理]
 
 
 
+[[related-information]]
 == 相關資訊
 
 * link:concept_system_manage_manage_cluster_administrator_users.html#create_cluster_admin_account["建立叢集管理員帳戶"]

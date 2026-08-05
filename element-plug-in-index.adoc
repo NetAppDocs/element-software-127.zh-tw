@@ -18,6 +18,7 @@ vCenter Server的支援VMware vSphere外掛程式提供VMware vSphere介面外�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

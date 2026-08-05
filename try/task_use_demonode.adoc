@@ -15,6 +15,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download["Ele
 
 
 
+[[supported-functionality]]
 == 支援的功能：
 
 Element示範節點僅供示範與開發工具使用。使用示範節點之前、請注意下列功能限制：
@@ -40,6 +41,7 @@ NOTE: 所有其他元素軟體限制均適用。如需詳細資料、請參閱�
 
 
 
+[[vm-requirements]]
 == VM 要求
 
 * 240 GB總容量（VM的虛擬磁碟大小和數量無法變更。透過Hypervisor提供的任何其他儲存設備、都會被來賓作業系統忽略。）
@@ -53,6 +55,7 @@ NOTE: 所有其他元素軟體限制均適用。如需詳細資料、請參閱�
 
 
 
+[[host-requirements]]
 == 主機需求
 
 * ESXi 6.0或6.5適用於Element示範節點11.7 VM
@@ -63,12 +66,14 @@ NOTE: 所有其他元素軟體限制均適用。如需詳細資料、請參閱�
 
 
 
+[[download-element-demo-node]]
 == 下載Element示範節點
 
 Element示範節點軟體是一組VMware檔案、已封裝在.ova檔案中。
 
 
 
+[[install-element-demo-node-on-vmware-esxi]]
 == 在VMware ESXi上安裝Element示範節點
 
 在VMware ESXi上安裝Element示範節點涉及下列工作：
@@ -80,12 +85,14 @@ Element示範節點軟體是一組VMware檔案、已封裝在.ova檔案中。
 
 
 
+[[configure-network-interfaces]]
 === 設定網路介面
 
 Element示範節點需要兩個獨立的虛擬機器網路。其中一種是儲存流量、另一種是管理流量。您應該設定儲存網路以支援巨型框架。
 
 
 
+[[register-the-demo-node-on-an-esxi-server]]
 === 在ESXi伺服器上登錄展示節點
 
 若要在ESXi伺服器上登錄Element示範節點、您應該使用vSphere Client來部署示範節點.ova檔案。
@@ -111,6 +118,7 @@ NOTE: 示範節點部署可能需要幾分鐘的時間才能完成。
 
 
 
+[[start-the-demo-node-on-an-esxi-server]]
 === 在ESXi伺服器上啟動展示節點
 
 您應該啟動示範節點VM、以便透過VMware ESXi主控台存取元素。
@@ -125,12 +133,14 @@ NOTE: 示範節點部署可能需要幾分鐘的時間才能完成。
 
 
 
+[[how-to-get-support]]
 == 如何取得支援
 
 Element示範節點是以盡力服務的志工為基礎提供。如需支援、請將您的問題張貼到 https://community.netapp.com/t5/Simulator-Discussions/bd-p/simulator-discussions["Element示範節點論壇"^]。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://mysupport.netapp.com/site/tools/tool-eula/element-demonode/download["Element示範節點下載頁面（需登入）"^]

@@ -15,6 +15,7 @@ Volume Snapshot是Volume的時間點複本。您可以使用個別磁碟區、�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_data_protection_create_a_volume_snapshot.adoc[建立磁碟區快照]

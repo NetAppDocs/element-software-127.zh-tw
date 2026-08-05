@@ -15,6 +15,7 @@ fiberChannelPort物件包含節點上個別連接埠或叢集中整個節點的�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -136,6 +137,7 @@ WWPN
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listnodefibrechannelportinfo.adoc[清單節點光纖通道連接埠資訊]

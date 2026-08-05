@@ -15,6 +15,7 @@ summary: BulkVolume工作物件包含大量磁碟區讀取或寫入作業的相�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

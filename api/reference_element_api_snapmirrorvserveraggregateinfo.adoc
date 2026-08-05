@@ -15,6 +15,7 @@ snapMirrorVserverAggregateInfo物件包含有關目的地ONTAP 叢集上可用�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

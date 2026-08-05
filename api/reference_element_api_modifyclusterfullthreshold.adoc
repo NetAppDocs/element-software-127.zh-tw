@@ -17,6 +17,7 @@ summary: 您可以使用ModifyClusterFullThreshold方法、變更儲存叢集接
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -81,6 +82,7 @@ stage3MetadataThresholdPercent
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -291,6 +293,7 @@ sumUsedMetadata ClusterBytes
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -307,6 +310,7 @@ sumUsedMetadata ClusterBytes
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -338,6 +342,7 @@ sumUsedMetadata ClusterBytes
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

@@ -33,12 +33,14 @@ keywords: netapp, mnode, management node, vcenter, hcc, esxi
 
 
 
+[[create-a-new-netapp-hcc-role]]
 == 建立新的NetApp HCC角色
 
 在vCenter中設定新的使用者帳戶、建立NetApp HCC,然後指派使用者權限。
 
 
 
+[[set-up-a-new-user-account-in-vcenter]]
 === 在vCenter中設定新的使用者帳戶
 
 請執行下列步驟、在vCenter中設定新的使用者帳戶。
@@ -54,6 +56,7 @@ keywords: netapp, mnode, management node, vcenter, hcc, esxi
 
 
 
+[[create-a-new-netapp-hcc-role-in-vcenter]]
 === 在vCenter中建立新的NetApp HCC角色
 
 請執行下列步驟、在vCenter中建立新的NetApp HCC角色。
@@ -69,6 +72,7 @@ keywords: netapp, mnode, management node, vcenter, hcc, esxi
 
 
 
+[[assign-user-permissions-to-vcenter]]
 === 將使用者權限指派給vCenter
 
 執行下列步驟、將使用者權限指派給vCenter中的新NetApp HCC角色。
@@ -111,6 +115,7 @@ image::mnode_new_HCC_role_vcenter.PNG[說明「新增權限」視窗]
 
 
 
+[[assign-user-permissions-to-the-datacenter]]
 === 將使用者權限指派給資料中心
 
 執行下列步驟、將使用者權限指派給vCenter中的資料中心。
@@ -136,6 +141,7 @@ IMPORTANT: Do * Not *選取* Propagate to子系*。
 
 
 
+[[assign-user-permissions-to-netapp-hci-datastores]]
 === 將使用者權限指派給NetApp HCI 各個資料存放區
 
 請執行下列步驟、將使用者權限指派給NetApp HCI vCenter中的「VMware資料中心」。
@@ -161,6 +167,7 @@ IMPORTANT: Do * Not *選取* Propagate to子系*。
 
 
 
+[[assign-user-permissions-to-a-netapp-host-cluster]]
 === 將使用者權限指派給NetApp主機叢集
 
 執行下列步驟、將使用者權限指派給vCenter中的NetApp主機叢集。
@@ -183,12 +190,14 @@ IMPORTANT: Do * Not *選取* Propagate to子系*。
 
 
 
+[[netapp-esxi-host-configurations]]
 == NetApp ESXi主機組態
 
 對於NetApp ESXi主機組態、您應該將NDE建立的使用者帳戶更新為新的NetApp HCC角色。
 
 
 
+[[netapp-esxi-host-does-not-exist-in-a-vcenter-host-cluster]]
 === NetApp ESXi主機不存在於vCenter主機叢集中
 
 如果vCenter主機叢集內不存在NetApp ESXi主機、您可以使用下列程序、在vCenter中指派NetApp HCC角色和使用者權限。
@@ -212,6 +221,7 @@ IMPORTANT: Do * Not *選取* Propagate to子系*。
 
 
 
+[[netapp-esxi-host-exists-in-a-vcenter-host-cluster]]
 === NetApp ESXi主機存在於vCenter主機叢集中
 
 如果vCenter主機叢集內有NetApp ESXi主機與其他廠商ESXi主機、您可以使用下列程序、在vCenter中指派NetApp HCC角色與使用者權限。
@@ -251,6 +261,7 @@ IMPORTANT: Do * Not *選取* Propagate to子系*。
 
 
 
+[[controller-asset-already-exists-on-the-management-node]]
 == 管理節點上已存在控制器資產
 
 如果管理節點上已存在控制器資產，請執行下列步驟，使用設定控制器 `PUT /assets /{asset_id} /controllers /{controller_id}`。
@@ -271,12 +282,14 @@ IMPORTANT: Do * Not *選取* Propagate to子系*。
 
 
 
+[[add-an-asset-to-the-management-node]]
 == 將資產新增至管理節點
 
 如果您需要在安裝後手動新增資產、請使用您在中建立的新 HCC 使用者帳戶<<在vCenter中設定新的使用者帳戶>>。如需更多資訊、請參閱 link:task_mnode_add_assets.html["將控制器資產新增至管理節點"]。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]

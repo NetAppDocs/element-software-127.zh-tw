@@ -20,6 +20,7 @@ summary: 您可以以圖形格式檢視個別存取群組的詳細資料、例�
 
 
 
+[[volume-access-group-details]]
 == Volume存取群組詳細資料
 
 「管理」索引標籤上的「存取群組」頁面提供有關Volume存取群組的資訊。

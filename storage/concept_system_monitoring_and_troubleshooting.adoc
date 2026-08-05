@@ -29,6 +29,7 @@ summary: 您必須監控系統以進行診斷、並取得各種系統作業的�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

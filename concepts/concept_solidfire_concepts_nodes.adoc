@@ -24,12 +24,14 @@ summary: 節點是群組為叢集的硬體、可作為區塊儲存或運算資�
 
 
 
+[[management-node]]
 == 管理節點
 
 管理節點是一部虛擬機器、用於升級及提供系統服務、包括監控和遙測、管理叢集資產和設定、執行系統測試和公用程式、以及啟用 NetApp 支援存取來進行疑難排解。link:../concepts/concept_intro_management_node.html["深入瞭解"]
 
 
 
+[[storage-node]]
 == 儲存節點
 
 這個伺服器包含一系列的磁碟機、這些磁碟機透過Bond10G網路介面彼此通訊。SolidFire節點中的磁碟機包含區塊和中繼資料空間、可用於資料儲存和資料管理。每個節點都包含NetApp Element 一個原廠的Imagesoftware映像。
@@ -45,6 +47,7 @@ summary: 節點是群組為叢集的硬體、可作為區塊儲存或運算資�
 
 
 
+[[fibre-channel-node]]
 == Fibre Channel節點
 
 供應連接至光纖通道交換器的鏈路、您可以連接至光纖通道用戶端。SolidFireFibre Channel節點可做為光纖通道和iSCSI傳輸協定之間的傳輸協定轉換器、讓您將Fibre Channel連線功能新增至任何新SolidFire 的或現有的叢集。
@@ -59,6 +62,7 @@ Fibre Channel節點具有下列特性：
 
 
 
+[[node-states-of-operation]]
 == 節點作業狀態
 
 [role="lead"]

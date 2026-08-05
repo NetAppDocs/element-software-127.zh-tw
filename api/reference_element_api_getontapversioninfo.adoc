@@ -15,6 +15,7 @@ summary: Element Web UI使用GetOnTapVerionInfo從ONTAP SnapMirror關係中的Sn
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,6 +38,7 @@ snapMirrorEndpointID
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -55,6 +57,7 @@ xref:reference_element_api_ontapversioninfo.adoc[版本資訊]陣列
 |===
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.1

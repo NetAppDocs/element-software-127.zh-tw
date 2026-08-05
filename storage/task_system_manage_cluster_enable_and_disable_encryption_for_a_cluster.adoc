@@ -28,6 +28,7 @@ WARNING: 對於支援所有Flash的儲存叢集、在建立叢集期間必須啟
 
 
 
+[[check-encryption-at-rest-status]]
 == 檢查加密的靜止狀態
 
 若要查看叢集上閒置時的加密狀態和 / 或軟體加密狀態、請使用此link:../api/reference_element_api_getclusterinfo.html["GetClusterInfo"^]方法。您可以使用此link:../api/reference_element_api_getsoftwareencryptionatrestinfo.html["GetSoftwareEncryptionAt恢復 資訊"^]方法取得叢集用來加密靜止資料的資訊。
@@ -43,6 +44,7 @@ NOTE: 目前的 Element 軟體 UI 儀表板 `https://<MVIP>/`僅顯示硬體型�
 
 
 
+[[enable-hardware-based-encryption-at-rest]]
 == 在靜止狀態下啟用硬體式加密
 
 
@@ -54,6 +56,7 @@ NOTE: 若要使用外部金鑰管理組態來啟用閒置加密，您必須透�
 
 
 
+[[enable-software-based-encryption-at-rest]]
 == 在靜止狀態下啟用軟體式加密
 
 
@@ -64,6 +67,7 @@ NOTE: 閒置的軟體加密無法在叢集上啟用之後停用。
 
 
 
+[[disable-hardware-based-encryption-at-rest]]
 == 停用靜止時的硬體加密
 
 . 在Element UI中、選取*叢集*>*設定*。

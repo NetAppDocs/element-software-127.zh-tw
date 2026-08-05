@@ -15,12 +15,14 @@ summary: 您可以使用清單ActivePairedVolumes方法、列出與Volume配對�
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -39,6 +41,7 @@ xref:reference_element_api_volumepair.adoc[Volume]陣列
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -54,6 +57,7 @@ xref:reference_element_api_volumepair.adoc[Volume]陣列
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法的回應類似於下列範例：
@@ -128,6 +132,7 @@ xref:reference_element_api_volumepair.adoc[Volume]陣列
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

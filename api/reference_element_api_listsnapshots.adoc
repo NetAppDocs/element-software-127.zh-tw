@@ -17,6 +17,7 @@ summary: 您可以使用listsnapshots傳回在磁碟區上所擷取之每個快�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -52,6 +53,7 @@ Snapshot ID
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -70,6 +72,7 @@ xref:reference_element_api_snapshot.adoc[Snapshot]陣列
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -86,6 +89,7 @@ xref:reference_element_api_snapshot.adoc[Snapshot]陣列
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -124,6 +128,7 @@ xref:reference_element_api_snapshot.adoc[Snapshot]陣列
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

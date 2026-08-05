@@ -20,6 +20,7 @@ NOTE: 如果叢集完整度處於階段1、2或3、您可以建立快照。叢�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -242,6 +243,7 @@ Json物件陣列
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -271,6 +273,7 @@ xref:reference_element_api_schedule.adoc[排程]
 |===
 
 
+[[request-example-1]]
 == 申請範例1.
 
 下列排程範例包含下列參數：
@@ -319,6 +322,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[response-example-1]]
 == 回應範例1.
 
 上述要求會傳回類似下列範例的回應：
@@ -367,6 +371,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[request-example-2]]
 == 申請範例2.
 
 下列排程範例包含下列參數：
@@ -409,6 +414,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[response-example-2]]
 == 回應範例2.
 
 上述要求會傳回類似下列範例的回應：
@@ -452,6 +458,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[request-example-3]]
 == 申請範例3.
 
 下列排程範例包含下列參數：
@@ -489,6 +496,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[response-example-3]]
 == 回應範例3.
 
 上述要求會傳回類似下列範例的回應：
@@ -534,6 +542,7 @@ xref:reference_element_api_schedule.adoc[排程]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

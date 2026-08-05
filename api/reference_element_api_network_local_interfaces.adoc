@@ -15,6 +15,7 @@ summary: 網路（本機介面）物件包含儲存節點上本機網路介面�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -91,6 +92,7 @@ MacAddress永久性
 |===
 
 
+[[member-modifiability-and-node-states]]
 == 成員可修改性和節點狀態
 
 此表格指出是否可在每個可能的節點狀態下修改物件參數。
@@ -168,6 +170,7 @@ MacAddress永久性
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_getconfig.adoc[組態設定]

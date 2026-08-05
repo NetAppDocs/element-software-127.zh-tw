@@ -37,6 +37,7 @@ summary: 您可以從叢集移除節點以進行維護或更換。在節點離�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2844772["更換故障SolidFire 的機箱"]

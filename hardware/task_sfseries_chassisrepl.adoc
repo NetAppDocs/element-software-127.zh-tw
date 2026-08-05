@@ -120,6 +120,7 @@ NOTE: 您應該將磁碟機插入與故障機箱相同的插槽中。
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

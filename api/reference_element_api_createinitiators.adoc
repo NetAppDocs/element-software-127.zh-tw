@@ -17,6 +17,7 @@ summary: 您可以使用建立啟動器來建立多個新的啟動器IQN或全�
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -50,6 +51,7 @@ Json物件陣列
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -70,6 +72,7 @@ xref:reference_element_api_initiator.adoc[啟動器]陣列
 |===
 
 
+[[error]]
 == 錯誤
 
 此方法會傳回下列錯誤：
@@ -88,6 +91,7 @@ xinitialatorExis
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -113,6 +117,7 @@ xinitialatorExis
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -143,12 +148,14 @@ xinitialatorExis
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listinitiators.adoc[清單啟動器]

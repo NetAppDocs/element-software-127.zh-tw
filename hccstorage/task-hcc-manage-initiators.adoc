@@ -30,6 +30,7 @@ keywords: netapp, initiator, storage, element, access group
 
 
 
+[[create-an-initiator]]
 == 建立啟動器
 
 您可以建立iSCSI或Fibre Channel啟動器、並選擇性地指派別名。
@@ -81,6 +82,7 @@ iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b
 
 
 
+[[add-initiators-to-a-volume-access-group]]
 == 將啟動器新增至Volume存取群組
 
 您可以將啟動器新增至Volume存取群組。當您將啟動器新增至Volume存取群組時、啟動器可讓您存取該Volume存取群組中的所有Volume。
@@ -98,6 +100,7 @@ iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b
 
 
 
+[[change-an-initiator-alias]]
 == 變更啟動器別名
 
 您可以變更現有啟動器的別名、或是新增別名（如果別名不存在）。
@@ -115,6 +118,7 @@ iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b
 
 
 
+[[delete-initiators]]
 == 刪除啟動器
 
 您可以刪除一或多個啟動器。刪除啟動器時、系統會將其從任何相關的Volume存取群組中移除。使用啟動器的任何連線都會維持有效、直到連線重設為止。

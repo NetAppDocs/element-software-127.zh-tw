@@ -15,6 +15,7 @@ summary: 您可以使用GetKeyProviderKmip方法擷取指定金鑰管理互通�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -37,6 +38,7 @@ KeyProviderID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -55,6 +57,7 @@ link:reference_element_api_keyproviderkmip.html["KeyProviderKmip"]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -71,6 +74,7 @@ link:reference_element_api_keyproviderkmip.html["KeyProviderKmip"]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -95,6 +99,7 @@ link:reference_element_api_keyproviderkmip.html["KeyProviderKmip"]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 11.7

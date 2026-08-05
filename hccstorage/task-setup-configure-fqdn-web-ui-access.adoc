@@ -34,6 +34,7 @@ summary: 瞭解如何設定、移除及疑難排解系統FQDN Web UI存取。
 
 
 
+[[configure-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == 使用NetApp混合雲控制設定FQDN Web UI存取
 
 .步驟
@@ -60,6 +61,7 @@ NOTE: 「*完整網域名稱*」窗格中只會列出具有FQDN集的連線儲�
 
 
 
+[[configure-fqdn-web-ui-access-using-the-rest-api]]
 == 使用REST API設定FQDN Web UI存取
 
 .步驟
@@ -116,6 +118,7 @@ method=CreateClusterInterfacePreference&name=mvip_fqdn&value=storagecluster.my.o
 
 
 
+[[remove-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == 使用NetApp混合雲控制移除FQDN Web UI存取
 
 您可以使用此程序來移除管理節點和儲存叢集的FQDN Web存取。
@@ -131,6 +134,7 @@ method=CreateClusterInterfacePreference&name=mvip_fqdn&value=storagecluster.my.o
 
 
 
+[[remove-fqdn-web-ui-access-using-the-rest-api]]
 == 使用REST API移除FQDN Web UI存取
 
 .步驟
@@ -181,6 +185,7 @@ https://<management_node_IP>/mnode/2/
 
 
 
+[[troubleshooting]]
 == 疑難排解
 
 如果FQDN設定不正確、您可能會在存取管理節點、儲存叢集或兩者時發生問題。請使用下列資訊來協助疑難排解問題。
@@ -212,6 +217,7 @@ https://<management_node_IP>/mnode/2/
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

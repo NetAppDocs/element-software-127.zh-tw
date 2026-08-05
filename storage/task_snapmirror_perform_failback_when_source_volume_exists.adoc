@@ -35,6 +35,7 @@ NOTE: 現在、您可以掛載原始的主要Volume、以恢復原始主要Volum
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:concept_snapmirror_failback_scenarios.adoc[SnapMirror容錯回復案例]

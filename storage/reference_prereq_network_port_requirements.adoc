@@ -284,7 +284,7 @@ LDAP伺服器
  a| 
 443
  a| 
-元素儲存韌體升級
+Element 儲存設備升級
 
 
 
@@ -546,6 +546,7 @@ vCenter外掛程式登錄。登錄完成後、即可關閉連接埠。
 |===
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

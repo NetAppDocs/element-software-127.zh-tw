@@ -25,6 +25,7 @@ summary: 您可以使用NetApp Element 這個解決方法來檢視有關叢集�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_monitor_cluster_fault_codes.adoc[叢集故障代碼]

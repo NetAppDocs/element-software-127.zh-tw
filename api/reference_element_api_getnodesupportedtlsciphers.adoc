@@ -15,12 +15,14 @@ summary: 您可以在單一節點上使用GetNodeSupportedTlsCiphers方法、取
 
 
 
+[[parameter]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -57,6 +59,7 @@ MandatoryCiphers
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -71,6 +74,7 @@ MandatoryCiphers
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：

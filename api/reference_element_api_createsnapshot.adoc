@@ -20,6 +20,7 @@ NOTE: 如果叢集完整度處於階段1、2或3、您可以建立快照。叢�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -138,6 +139,7 @@ SnapMirror軟體用來指定SnapMirror端點上的快照保留原則的標籤。
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -176,6 +178,7 @@ xref:reference_element_api_snapshot.adoc[Snapshot]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -192,6 +195,7 @@ xref:reference_element_api_snapshot.adoc[Snapshot]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -225,12 +229,14 @@ xref:reference_element_api_snapshot.adoc[Snapshot]
 ----
 
 
+[[exception]]
 == 例外狀況
 
 呼叫 API 且無法建立快照時、會顯示 xNotPrimary 例外 `CreateSnapshot`。這是預期的行為。重試 `CreateSnapshot` API 呼叫。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

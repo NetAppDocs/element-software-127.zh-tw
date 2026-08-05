@@ -15,6 +15,7 @@ summary: remoteClusterSnapshotStatus物件包含儲存在遠端儲存叢集上�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

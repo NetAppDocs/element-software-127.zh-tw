@@ -15,6 +15,7 @@ summary: 您可以使用ModifyStorageContainer方法來變更現有的虛擬Volu
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -65,6 +66,7 @@ UUID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -85,6 +87,7 @@ xref:reference_element_api_storagecontainer.adoc[storageContainer]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -102,6 +105,7 @@ xref:reference_element_api_storagecontainer.adoc[storageContainer]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -125,6 +129,7 @@ xref:reference_element_api_storagecontainer.adoc[storageContainer]
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

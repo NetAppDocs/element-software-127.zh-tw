@@ -15,6 +15,7 @@ summary: Element Web UI使用Create SnapMirrorEndpoint方法來建立與遠端Sn
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -63,6 +64,7 @@ summary: Element Web UI使用Create SnapMirrorEndpoint方法來建立與遠端Sn
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -83,6 +85,7 @@ xref:reference_element_api_snapmirrorendpoint.adoc[snapMirrorEndpoint]
 |===
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.0

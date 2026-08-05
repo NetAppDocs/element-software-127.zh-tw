@@ -15,6 +15,7 @@ summary: 您可以使用刪除Volume存取群組來刪除Volume存取群組。
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -71,12 +72,14 @@ Volume存取群組ID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -94,6 +97,7 @@ Volume存取群組ID
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -107,6 +111,7 @@ Volume存取群組ID
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

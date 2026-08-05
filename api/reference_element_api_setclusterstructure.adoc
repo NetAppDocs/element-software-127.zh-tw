@@ -15,6 +15,7 @@ summary: 您可以使用SetCluster結構 方法、從備份還原儲存叢集組
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -33,6 +34,7 @@ xref:reference_element_api_clusterstructure.adoc[叢集結構]
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -51,6 +53,7 @@ asyncdle
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -65,6 +68,7 @@ asyncdle
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -80,6 +84,7 @@ asyncdle
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.3

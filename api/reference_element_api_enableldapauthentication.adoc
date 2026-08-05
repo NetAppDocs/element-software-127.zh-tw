@@ -15,6 +15,7 @@ summary: 您可以使用EnablLdap驗 證方法來設定LDAP目錄連線、以便
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -163,12 +164,14 @@ searchBindPassword
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -196,6 +199,7 @@ searchBindPassword
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -210,6 +214,7 @@ searchBindPassword
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

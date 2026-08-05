@@ -30,6 +30,7 @@ NOTE: 請參閱 SolidFire All Flash Storage Concepts 內容，以取得使用而
 
 
 
+[[create-a-qos-policy]]
 == 建立QoS原則
 
 您可以建立QoS原則、並將其套用至應有同等效能的磁碟區。
@@ -57,6 +58,7 @@ TIP: 使用描述性命名最佳實務做法。如果您的環境中使用多個
 
 
 
+[[apply-a-qos-policy-to-a-volume]]
 == 將QoS原則套用至磁碟區
 
 您可以使用NetApp混合雲控制、將現有的QoS原則指派給Volume。
@@ -83,6 +85,7 @@ NOTE: 指派QoS會覆寫先前套用的任何個別Volume QoS值。
 
 
 
+[[change-the-qos-policy-assignment-of-a-volume]]
 == 變更Volume的QoS原則指派
 
 您可以從磁碟區移除QoS原則指派、或選取不同的QoS原則或自訂QoS。
@@ -111,6 +114,7 @@ NOTE: 停用QoS原則時、除非另有修改、否則磁碟區會使用預設�
 
 
 
+[[edit-a-qos-policy]]
 == 編輯QoS原則
 
 您可以變更現有QoS原則的名稱、或編輯與原則相關的值。變更QoS原則效能值會影響與原則相關聯之所有磁碟區的QoS。
@@ -139,6 +143,7 @@ TIP: 您可以在「*作用中磁碟區*」欄的連結中選取原則、以顯�
 
 
 
+[[delete-a-qos-policy]]
 == 刪除QoS原則
 
 您可以刪除不再需要的QoS原則。刪除QoS原則時、所有指派原則的磁碟區都會保留先前由原則定義的QoS值、但會保留個別Volume QoS。與刪除的QoS原則的任何關聯都會移除。

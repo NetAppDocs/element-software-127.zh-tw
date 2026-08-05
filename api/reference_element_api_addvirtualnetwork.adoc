@@ -20,6 +20,7 @@ NOTE: AddVirtualNetwork方法僅用於建立新的虛擬網路。如果您想要
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -139,6 +140,7 @@ Json物件
 
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -159,6 +161,7 @@ Json物件
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -185,6 +188,7 @@ Json物件
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -201,6 +205,7 @@ Json物件
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

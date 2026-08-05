@@ -19,6 +19,7 @@ summary: 在功能性儲存系統中、租戶可以使用帳戶來讓用戶端�
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

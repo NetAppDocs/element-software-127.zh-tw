@@ -30,6 +30,7 @@ keywords: netapp, element, logs, collection, troubleshooting, monitor
 
 
 
+[[use-netapp-hybrid-cloud-control-to-collect-logs]]
 == 使用NetApp混合雲控制來收集記錄
 
 您可以從NetApp混合雲控制儀表板存取記錄收集區域。
@@ -71,6 +72,7 @@ NOTE: 視您收集的記錄而定、進度列可能會維持在某個百分比�
 
 
 
+[[use-the-rest-api-to-collect-logs]]
 == 使用REST API來收集記錄
 
 您可以使用REST API來收集元素記錄。

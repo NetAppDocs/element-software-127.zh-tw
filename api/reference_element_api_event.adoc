@@ -15,6 +15,7 @@ summary: 事件物件包含API方法呼叫期間或系統執行作業時所發�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -125,6 +126,7 @@ ISO 8601日期字串
 
 
 
+[[event-types]]
 == 事件類型
 
 下列清單說明事件InfoType成員可能包含的事件類型：
@@ -163,6 +165,7 @@ ISO 8601日期字串
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listevents.adoc[清單事件]

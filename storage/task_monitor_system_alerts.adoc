@@ -99,6 +99,7 @@ ID
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_monitor_cluster_fault_codes.adoc[叢集故障代碼]

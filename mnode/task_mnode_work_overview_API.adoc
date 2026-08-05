@@ -20,6 +20,7 @@ keywords: netapp, mnode api, management node api, rest api
 
 
 
+[[authorization]]
 == 授權
 
 * link:task_mnode_api_get_authorizationtouse.html["取得使用REST API的授權"]
@@ -27,6 +28,7 @@ keywords: netapp, mnode api, management node api, rest api
 
 
 
+[[asset-configuration]]
 == 資產組態
 
 * link:task_mnode_enable_activeIQ.html["啟用Active IQ 功能支援功能與NetApp監控"]
@@ -38,11 +40,12 @@ keywords: netapp, mnode api, management node api, rest api
 
 
 
+[[asset-management]]
 == 資產管理
 
 * link:task_mnode_edit_vcenter_assets.html["檢視或編輯現有的控制器資產"]
 * link:task_mnode_manage_storage_cluster_assets.html["建立及管理儲存叢集資產"]
-* link:../hccstorage/task-hcc-collectlogs.html#use-the-rest-api-to-collect-netapp-hci-logs["使用REST API來收集元素系統記錄"]
+* link:../hccstorage/task-hcc-collectlogs.html#use-the-rest-api-to-collect-logs["使用REST API來收集元素系統記錄"]
 * link:task_mnode_api_find_mgmt_svcs_version.html["驗證管理節點作業系統和服務版本"]
 * link:task_mnode_logs.html["從管理服務取得記錄"]
 

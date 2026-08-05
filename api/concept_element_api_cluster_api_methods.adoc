@@ -51,6 +51,7 @@ Element軟體叢集API方法可讓您管理儲存叢集的組態和拓撲、以�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

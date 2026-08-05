@@ -15,6 +15,7 @@ summary: 您可以使用SetNetworkConfig方法來設定節點的網路組態。�
 
 
 
+[[parameter]]
 == 參數
 
 注意：
@@ -41,6 +42,7 @@ xref:reference_element_api_network_all_interfaces.adoc[網路（所有介面）]
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -59,6 +61,7 @@ xref:reference_element_api_network_all_interfaces.adoc[網路（所有介面）]
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -87,18 +90,21 @@ xref:reference_element_api_network_all_interfaces.adoc[網路（所有介面）]
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法的回應與GetNetwork Config方法的回應相同。此方法會顯示每個物件的所有成員、並包含任何變更成員的新值。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:reference_element_api_getnetworkconfig.adoc[GetNetwork組態]

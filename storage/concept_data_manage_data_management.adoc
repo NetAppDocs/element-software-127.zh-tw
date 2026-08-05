@@ -20,6 +20,7 @@ summary: 您可以從Element UI的Management（管理）索引標籤、管理執
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

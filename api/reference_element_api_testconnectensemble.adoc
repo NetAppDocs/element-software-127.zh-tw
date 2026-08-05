@@ -15,6 +15,7 @@ summary: 您可以使用TestConnectEntemble方法來驗證與指定資料庫集�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -27,6 +28,7 @@ summary: 您可以使用TestConnectEntemble方法來驗證與指定資料庫集�
 |===
 
 
+[[return-value]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -46,6 +48,7 @@ summary: 您可以使用TestConnectEntemble方法來驗證與指定資料庫集�
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -60,6 +63,7 @@ summary: 您可以使用TestConnectEntemble方法來驗證與指定資料庫集�
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -85,6 +89,7 @@ summary: 您可以使用TestConnectEntemble方法來驗證與指定資料庫集�
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

@@ -39,6 +39,7 @@ NOTE: IDP叢集管理員的使用者名稱應與SAML屬性名稱/值對應相符
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/element-software/index.html["零件與元件軟體文件SolidFire"]

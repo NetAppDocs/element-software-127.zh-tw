@@ -15,6 +15,7 @@ clusterStats物件包含叢集的統計資料。物件中包含的許多Volume�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -288,6 +289,7 @@ ISO 8601日期字串
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_getclusterstats.adoc[GetClusterStats]

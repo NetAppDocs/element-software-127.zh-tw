@@ -28,6 +28,7 @@ NOTE: 根據預設、社群字串為公用、網路為localhost。您可以變�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_system_manage_snmp_configure_snmp_traps.adoc[設定SNMP設陷]

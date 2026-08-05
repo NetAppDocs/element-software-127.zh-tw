@@ -31,6 +31,7 @@ summary: 您可以在Element UI中檢閱叢集上所有作用中虛擬磁碟區�
 
 
 
+[[details]]
 == 詳細資料
 
 VVols索引標籤的Virtual Volumes（虛擬磁碟區）頁面提供叢集上每個作用中虛擬磁碟區的相關資訊、例如Volume ID、Snapshot ID、父虛擬磁碟區ID和虛擬Volume ID。
@@ -55,6 +56,7 @@ VVols索引標籤的Virtual Volumes（虛擬磁碟區）頁面提供叢集上每
 
 
 
+[[individual-virtual-volume-details]]
 == 個別虛擬Volume詳細資料
 
 在您選取個別虛擬磁碟區並檢視其詳細資料時、VVols索引標籤上的Virtual Volumes（虛擬磁碟區）頁面會提供下列虛擬磁碟區資訊。

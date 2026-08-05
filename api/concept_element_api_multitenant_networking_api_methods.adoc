@@ -17,6 +17,7 @@ summary: 元素儲存叢集中的多租戶網路功能、可讓位於不同邏�
 
 
 
+[[prerequisites-for-setting-up-a-multitenant-virtual-network]]
 == 設定多租戶虛擬網路的先決條件
 
 * 您必須識別要指派給儲存節點上虛擬網路的用戶端網路IP位址區塊。
@@ -25,6 +26,7 @@ summary: 元素儲存叢集中的多租戶網路功能、可讓位於不同邏�
 
 
 
+[[virtual-networking-order-of-operations]]
 == 虛擬網路作業順序
 
 . 使用AddVirtualNetwork方法大量配置您輸入的IP位址。
@@ -42,6 +44,7 @@ summary: 元素儲存叢集中的多租戶網路功能、可讓位於不同邏�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:concept_element_api_virtual_network_naming_conventions.adoc[虛擬網路命名慣例]

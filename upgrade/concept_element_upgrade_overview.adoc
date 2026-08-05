@@ -46,6 +46,7 @@ TIP: 若要檢查版本、請登入管理節點、並在登入橫幅中檢視元
 
 
 
+[[sysupgradesystem-upgrade-sequence]]
 == [sys_upgrade ]系統升級順序
 
 您可以使用下列順序來升級SolidFire 適用於Element 12.5或更新版本的NetApp全快閃儲存系統。

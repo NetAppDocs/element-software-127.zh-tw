@@ -15,6 +15,7 @@ Protection Domain Tolerance物件包含儲存叢集在發生一或多個故障�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

@@ -26,6 +26,7 @@ summary: 您可以使用 SnapMirror 將元件磁碟區的快照複本複製到 O
 
 
 
+[[about-replication-between-element-and-ontap]]
 == 關於元素與ONTAP 元素之間的複寫
 
 從 ONTAP 9 3 開始、您可以使用 SnapMirror 將元素 Volume 的快照複本複製到 ONTAP 目的地。萬一Element站台發生災難、您可以從ONTAP 該系統將資料提供給用戶端、然後在恢復服務時重新啟動Element來源Volume。
@@ -34,6 +35,7 @@ summary: 您可以使用 SnapMirror 將元件磁碟區的快照複本複製到 O
 
 
 
+[[types-of-data-protection-relationship]]
 === 資料保護關係類型
 
 SnapMirror提供兩種類型的資料保護關係。對於每種類型、 SnapMirror 會在初始化或更新關係之前、先建立元素來源磁碟區的快照複本：
@@ -44,6 +46,7 @@ SnapMirror提供兩種類型的資料保護關係。對於每種類型、 SnapMi
 
 
 
+[[default-policies]]
 === 預設原則
 
 第一次叫用SnapMirror時、它會執行從來源磁碟區到目的地磁碟區的_基準傳輸_。SnapMirror原則_定義基礎的內容及任何更新。
@@ -92,12 +95,14 @@ Unified7year
 ====
 
 
+[[understanding-snapmirror-labels]]
 === 瞭解SnapMirror標籤
 
 每個具有「鏡射資料保險箱」原則類型的原則都必須有一個規則、指定要複寫哪些快照複本。例如，規則 "daily" 表示只應複寫指派 SnapMirror 標籤 "daily" 的快照複本。您可以在設定元素快照複本時指定 SnapMirror 標籤。
 
 
 
+[[replication-from-an-element-source-cluster-to-an-ontap-destination-cluster]]
 === 從元素來源叢集複寫到ONTAP 一個目的地叢集
 
 您可以使用 SnapMirror 將元素 Volume 的快照複本複寫到 ONTAP 目的地系統。萬一Element站台發生災難、您可以從ONTAP 該系統將資料提供給用戶端、然後在恢復服務時重新啟動Element來源Volume。
@@ -112,6 +117,7 @@ Unified7year
 
 
 
+[[replication-from-an-ontap-source-cluster-to-an-element-destination-cluster]]
 === 從ONTAP 一個來源叢集複寫到一個元素目的地叢集
 
 從 ONTAP 9 4 開始、您可以將在 ONTAP 系統上建立的 LUN 快照複本複寫回元素 Volume ：
@@ -133,6 +139,7 @@ Unified7year
 
 
 
+[[prerequisites]]
 === 先決條件
 
 您必須先完成下列工作、才能在Element和ONTAP 支援中心之間設定資料保護關係：
@@ -154,6 +161,7 @@ Unified7year
 
 
 
+[[support-details]]
 === 支援詳細資料
 
 下表顯示ONTAP 元素到不完整備份的支援詳細資料。

@@ -32,6 +32,7 @@ IMPORTANT: 如果磁碟機導致儲存空間不足、無法移轉資料、則不
 
 
 
+[[for-more-information]]
 == 以取得更多資訊
 
 * xref:task_troubleshoot_remove_failed_drives.adoc[從叢集移除故障磁碟機]

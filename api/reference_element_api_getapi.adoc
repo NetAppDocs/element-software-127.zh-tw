@@ -15,12 +15,14 @@ summary: 您可以使用GetAPI方法取得系統中可使用的所有API方法�
 
 
 
+[[parameters]]
 == 參數
 
 此方法沒有輸入參數。
 
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -57,6 +59,7 @@ summary: 您可以使用GetAPI方法取得系統中可使用的所有API方法�
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -71,6 +74,7 @@ summary: 您可以使用GetAPI方法取得系統中可使用的所有API方法�
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：

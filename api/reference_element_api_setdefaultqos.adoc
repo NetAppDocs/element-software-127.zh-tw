@@ -15,6 +15,7 @@ summary: 您可以使用SetDefaultQoS方法來設定磁碟區的預設服務品�
 
 
 
+[[parameters]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -63,6 +64,7 @@ burstIOPS
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法具有下列傳回值：
@@ -99,6 +101,7 @@ burstIOPS
 |===
 
 
+[[request-example]]
 == 申請範例
 
 此方法的要求類似於下列範例：
@@ -117,6 +120,7 @@ burstIOPS
 ----
 
 
+[[response-example]]
 == 回應範例
 
 此方法會傳回類似下列範例的回應：
@@ -134,6 +138,7 @@ burstIOPS
 ----
 
 
+[[new-since-version]]
 == 新的自版本
 
 9.6

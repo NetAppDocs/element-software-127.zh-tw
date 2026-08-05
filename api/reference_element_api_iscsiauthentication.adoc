@@ -15,6 +15,7 @@ ISCSIAuthentication物件包含iSCSI工作階段的驗證資訊。
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：

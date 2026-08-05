@@ -39,6 +39,7 @@ summary: 您可以在聯絡NetApp支援部門並完成初步步驟之後、關�
 ====
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_gracefully_shut_down_and_power_on_a_NetApp_Solidfire_HCI_storage_cluster["如何在NetApp Solidfire / HCI儲存叢集上正常關機並開機"^]

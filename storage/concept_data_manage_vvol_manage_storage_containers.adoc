@@ -19,6 +19,7 @@ summary: 儲存容器是在執行Element軟體的叢集上所建立的vSphere資
 
 
 
+[[create-a-storage-container]]
 == 建立儲存容器
 
 您可以在Element UI中建立儲存容器、然後在vCenter中探索。您必須至少建立一個儲存容器、才能開始配置VVOL備份的虛擬機器。
@@ -48,6 +49,7 @@ NOTE: 由於會自動建立一個更新帳戶ID並指派給儲存容器、因此
 
 
 
+[[view-storage-container-details]]
 == 檢視儲存容器詳細資料
 
 在VVols索引標籤的Storage Container（儲存容器）頁面上、您可以檢視叢集上所有作用中儲存容器的資訊。
@@ -67,6 +69,7 @@ NOTE: 由於會自動建立一個更新帳戶ID並指派給儲存容器、因此
 
 
 
+[[view-individual-storage-container-details]]
 == 檢視個別儲存容器詳細資料
 
 您可以從VVols索引標籤的Storage Container（儲存容器）頁面選取個別儲存容器的儲存容器資訊、以檢視該資訊。
@@ -87,6 +90,7 @@ NOTE: 由於會自動建立一個更新帳戶ID並指派給儲存容器、因此
 
 
 
+[[edit-a-storage-container]]
 == 編輯儲存容器
 
 您可以在Element UI中修改儲存容器CHAP驗證。
@@ -104,6 +108,7 @@ TIP: 如果您未變更CHAP設定認證、則其維持不變。如果您將認�
 
 
 
+[[delete-a-storage-container]]
 == 刪除儲存容器
 
 您可以從Element UI刪除儲存容器。

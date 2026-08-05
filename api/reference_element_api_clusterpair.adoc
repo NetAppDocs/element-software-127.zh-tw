@@ -15,6 +15,7 @@ clusterPair物件包含與本機叢集配對的叢集相關資訊。您可以使
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -102,6 +103,7 @@ mvip
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_listclusterpairs.adoc[listClusterPaairs]

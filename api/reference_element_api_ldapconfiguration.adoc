@@ -15,6 +15,7 @@ LDAPConfiguration物件包含儲存系統上LDAP組態的相關資訊。您可�
 
 
 
+[[object-members]]
 == 物件成員
 
 此物件包含下列成員：
@@ -127,6 +128,7 @@ searchBindDN
 |===
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_getldapconfiguration.adoc[GetLdapConfiguration]

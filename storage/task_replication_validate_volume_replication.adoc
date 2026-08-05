@@ -19,6 +19,7 @@ summary: 複寫磁碟區之後、您應該確定來源與目標磁碟區處於�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_replication_volume_pairing_warnings.adoc[Volume配對警告]

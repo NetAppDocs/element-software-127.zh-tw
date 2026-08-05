@@ -15,6 +15,7 @@ summary: Element Web UI使用BreakSnapMirrorVolume方法來中斷ONTAP 來源Con
 
 
 
+[[parameter]]
 == 參數
 
 此方法具有下列輸入參數：
@@ -87,18 +88,21 @@ Snapshot ID
 |===
 
 
+[[return-values]]
 == 傳回值
 
 此方法沒有傳回值。
 
 
 
+[[new-since-version]]
 == 新的自版本
 
 10.0
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 xref:reference_element_api_breaksnapmirrorrelationship.adoc[BreakSnapMirrorRelationationations.]

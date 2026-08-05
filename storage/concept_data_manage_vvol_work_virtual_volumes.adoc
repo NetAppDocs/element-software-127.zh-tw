@@ -27,6 +27,7 @@ NOTE: 如果您已向vCenter註冊VASA供應商、則VASA支援可作為升級�
 
 
 
+[[find-more-information]]
 == 如需詳細資訊、請參閱
 
 * xref:task_data_manage_vvol_enable_virtual_volumes.adoc[啟用虛擬磁碟區]
